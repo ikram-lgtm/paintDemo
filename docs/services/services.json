@@ -1,0 +1,67 @@
+[
+  {
+    "id": "interior-painting",
+    "title": "Interior Painting",
+    "image": "/assets/services/interior-painting.webp",
+    "imageSmall": "/assets/services/interior-painting-sm.webp",
+    "imageAlt": "Painting roller applying neutral paint to interior wall.",
+    "displayOrder": 1,
+    "imageMobile": "/assets/services/interior-painting-mobile.webp"
+  },
+  {
+    "id": "exterior-painting",
+    "title": "Exterior Painting",
+    "image": "/assets/services/exterior-painting.webp",
+    "imageSmall": "/assets/services/exterior-painting-sm.webp",
+    "imageAlt": "Modern house exterior with painting scaffold.",
+    "displayOrder": 2
+  },
+  {
+    "id": "plasterboard-installation",
+    "title": "Plasterboard Installation (Placo)",
+    "image": "/assets/services/plasterboard-installation.webp",
+    "imageSmall": "/assets/services/plasterboard-installation-sm.webp",
+    "imageAlt": "Unfinished room with installed plasterboard and finishing joints.",
+    "displayOrder": 3
+  },
+  {
+    "id": "plastering-skimming",
+    "title": "Plastering & Skimming",
+    "image": "/assets/services/plastering-skimming.webp",
+    "imageSmall": "/assets/services/plastering-skimming-sm.webp",
+    "imageAlt": "Tradesperson smoothing plaster with a metal trowel.",
+    "displayOrder": 4
+  },
+  {
+    "id": "joint-taping",
+    "title": "Joint Taping",
+    "image": "/assets/services/joint-taping.webp",
+    "imageSmall": "/assets/services/joint-taping-sm.webp",
+    "imageAlt": "Joint tape applied across a plasterboard seam.",
+    "displayOrder": 5
+  },
+  {
+    "id": "apartment-renovation",
+    "title": "Apartment Renovation",
+    "image": "/assets/services/apartment-renovation.webp",
+    "imageSmall": "/assets/services/apartment-renovation-sm.webp",
+    "imageAlt": "Finished light-filled apartment living room.",
+    "displayOrder": 6
+  },
+  {
+    "id": "house-renovation",
+    "title": "House Renovation",
+    "image": "/assets/services/house-renovation.webp",
+    "imageSmall": "/assets/services/house-renovation-sm.webp",
+    "imageAlt": "Renovated contemporary house with wood and glass details.",
+    "displayOrder": 7
+  },
+  {
+    "id": "small-repairs",
+    "title": "Small Repairs",
+    "image": "/assets/services/small-repairs.webp",
+    "imageSmall": "/assets/services/small-repairs-sm.webp",
+    "imageAlt": "Toolbox and hand tools for home repairs.",
+    "displayOrder": 8
+  }
+]

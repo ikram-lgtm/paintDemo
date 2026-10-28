@@ -1,0 +1,275 @@
+{
+  "seo": {
+    "homeTitle": "Peintre à Paris et en Île-de-France | Devis gratuit",
+    "homeDescription": "Peinture intérieure et extérieure, Placo, enduits, ratissage, bandes et rénovation à Paris et en Île-de-France. Devis et déplacement gratuits.",
+    "ogTitle": "Peinture et rénovation à Paris et en Île-de-France",
+    "ogDescription": "Un artisan peintre pour vos travaux de peinture, de finitions et de rénovation. Devis et déplacement gratuits."
+  },
+  "global": {
+    "brandTagline": "Artisan peintre • Paris et Île-de-France",
+    "switchLanguage": "Choisir la langue",
+    "languageCurrent": "Langue actuelle",
+    "menuOpen": "Ouvrir le menu",
+    "menuClose": "Fermer le menu",
+    "navLabel": "Navigation principale",
+    "callToAction": "Demander un devis gratuit",
+    "contactAction": "Nous contacter",
+    "nextSection": "Faire défiler vers la section suivante",
+    "backToTop": "Retour en haut",
+    "learnMore": "En savoir plus",
+    "available7days": "Disponible 7j/7",
+    "location": "Paris et Île-de-France"
+  },
+  "nav": {
+    "home": "Accueil",
+    "services": "Prestations",
+    "serviceAreas": "Zones d’intervention",
+    "paris": "Paris",
+    "ileDeFrance": "Île-de-France",
+    "projects": "Réalisations",
+    "inspiration": "Inspirations",
+    "beforeAfter": "Avant / Après",
+    "about": "À propos",
+    "blog": "Conseils & guides",
+    "contact": "Contact",
+    "faq": "Questions fréquentes",
+    "allServices": "Toutes les prestations",
+    "allAreas": "Toutes les zones",
+    "allProjects": "Toutes les réalisations",
+    "requestQuote": "Devis gratuit"
+  },
+  "services": {
+    "interior": "Peinture intérieure",
+    "exterior": "Peinture extérieure",
+    "plasterboard": "Pose de Placo (plaques de plâtre)",
+    "skimming": "Enduit et ratissage",
+    "jointTaping": "Bandes et joints de Placo",
+    "apartment": "Rénovation d’appartement",
+    "house": "Rénovation de maison",
+    "repairs": "Rattrapage et petites réparations"
+  },
+  "hero": {
+    "eyebrow": "Artisan peintre à Paris et en Île-de-France",
+    "title": "Peinture & rénovation",
+    "titleAccent": "avec soin.",
+    "lead": "Peinture intérieure et extérieure, Placo, enduits, ratissage et rénovation de maisons et d’appartements. Travail soigné, devis et déplacement gratuits.",
+    "mobileLead": "Peinture, Placo, enduits et rénovation à Paris et en Île-de-France. Devis et déplacement gratuits.",
+    "primaryCta": "Demander un devis gratuit",
+    "secondaryCta": "Découvrir nos prestations",
+    "quoteTitle": "Devis et déplacement gratuits",
+    "quoteBody": "Décrivez vos surfaces, les travaux souhaités et vos idées. Nous échangerons sur les prochaines étapes.",
+    "quoteButton": "Demander un devis",
+    "regionTag": "Paris • Île-de-France",
+    "availability": "Disponible 7j/7 pour vos demandes",
+    "imageAlt": "Illustration d’une maison rénovée avec terrasse et jardin",
+    "metrics": [
+      { "value": "10+", "label": "Années d’expérience" },
+      { "value": "250+", "label": "Projets réalisés" },
+      { "value": "98%", "label": "Clients qui recommandent" }
+    ]
+  },
+  "expertise": {
+    "eyebrow": "Notre savoir-faire",
+    "headingStart": "De la préparation",
+    "headingAccent": "aux belles finitions",
+    "cards": {
+      "listen": "Écouter",
+      "prepare": "Préparer",
+      "precision": "Appliquer",
+      "transform": "Rénover",
+      "finishes": "Soigner les détails"
+    },
+    "sliderLabel": "Étapes de notre savoir-faire"
+  },
+  "showcase": {
+    "eyebrow": "Peinture & rénovation",
+    "headingStart": "Des espaces renouvelés.",
+    "headingAccent": "Des finitions soignées.",
+    "cta": "Découvrir nos prestations",
+    "imageAlt": "Illustration d’un intérieur rénové aux finitions claires",
+    "watermark": "RÉNOVATION"
+  },
+  "editorial": {
+    "eyebrow": "Nos prestations",
+    "headingStart": "Des surfaces soignées,",
+    "headingAccent": "des espaces renouvelés",
+    "lead": "Peinture intérieure et extérieure, pose de Placo, enduits, ratissage, bandes, rénovation d’appartements et de maisons : des travaux réalisés avec soin à Paris et en Île-de-France.",
+    "all": "Voir les 8 prestations",
+    "less": "Afficher moins",
+    "selectAria": "Choisir une prestation"
+  },
+  "process": {
+    "eyebrow": "Notre méthode",
+    "headingStart": "Peinture intérieure et extérieure",
+    "headingAccent": "avec une finition soignée",
+    "lead": "Du choix des teintes à la préparation des supports et aux finitions, nous accordons de l’importance à chaque étape de vos travaux.",
+    "tagStart": "Le goût du travail bien fait.",
+    "tagAccent": "Du début à la fin.",
+    "stepsAria": "Étapes possibles d’un projet de peinture",
+    "steps": {
+      "consult": {
+        "title": "Conseil et choix des teintes",
+        "description": "Échanger sur vos envies, les supports et les finitions souhaitées."
+      },
+      "prep": {
+        "title": "Préparation des surfaces",
+        "description": "Préparer les murs et traiter les petites imperfections selon leur état."
+      },
+      "paint": {
+        "title": "Peinture intérieure / extérieure",
+        "description": "Appliquer les peintures adaptées aux travaux convenus."
+      },
+      "finish": {
+        "title": "Finitions et nettoyage",
+        "description": "Contrôler les finitions et laisser un espace propre après intervention."
+      }
+    },
+    "houseAlt": "Illustration d’une maison avec travaux de peinture intérieure et extérieure",
+    "watermark": "PEINTURE"
+  },
+  "projects": {
+    "eyebrow": "Idées & inspirations",
+    "headingStart": "Des ambiances qui",
+    "headingAccent": "inspirent vos envies",
+    "lead": "Explorez des ambiances et des finitions pour imaginer votre prochain projet de peinture ou de rénovation. Visuels d’inspiration, non présentés comme des chantiers réalisés.",
+    "disclosure": "Visuels d’inspiration — non contractuels",
+    "regionAria": "Galerie d’inspiration. Faire défiler horizontalement.",
+    "previous": "Visuel précédent",
+    "next": "Visuel suivant",
+    "view": "Voir l’inspiration",
+    "items": {
+      "lounge": "Salon lumineux",
+      "dining": "Salle à manger raffinée",
+      "stairs": "Escalier épuré",
+      "classic": "Séjour aux teintes douces",
+      "exterior": "Façade modernisée"
+    }
+  },
+  "testimonials": {
+    "eyebrow": "Avis clients",
+    "headingStart": "Vos retours,",
+    "headingAccent": "notre motivation",
+    "note": "Des avis authentiques, publiés avec accord et source vérifiable.",
+    "source": "Lire l’avis d’origine",
+    "imageAlt": "Travaux de peinture et de finition intérieure en cours"
+  },
+  "panorama": {
+    "eyebrow": "Nos spécialités",
+    "headingStart": "Un intérieur à votre image,",
+    "headingAccent": "des finitions qui font la différence",
+    "caption": "Vue d’inspiration non interactive — aucun parcours virtuel à 360° n’est proposé.",
+    "imageAlt": "Illustration panoramique d’un intérieur avec peintures et finitions soignées",
+    "pillars": {
+      "painting": "Peinture intérieure",
+      "exterior": "Peinture extérieure",
+      "placo": "Placo et plaques de plâtre",
+      "plaster": "Enduit et ratissage",
+      "joints": "Bandes, joints et retouches",
+      "renovation": "Rénovation appartement / maison"
+    }
+  },
+  "team": {
+    "eyebrow": "Notre équipe professionnelle",
+    "headingStart": "Rencontrez",
+    "headingAccent": "nos experts",
+    "headingAccentSecond": "en design",
+    "headingTail": "d’intérieur",
+    "lead": "Notre équipe de peintres, de designers et d’experts en rénovation travaille ensemble pour donner vie à votre projet avec soin et précision.",
+    "rosterLabel": "Les membres de notre équipe",
+    "members": [
+      {
+        "id": "mark-jackson",
+        "name": "Mark Jackson",
+        "role": "Peintre d’intérieur & designer principal"
+      },
+      {
+        "id": "valeria-novikova",
+        "name": "Valeria Novikova",
+        "role": "Spécialiste en design d’intérieur"
+      },
+      {
+        "id": "alex-podzemskiy",
+        "name": "Alex Podzemskiy",
+        "role": "Expert en peinture extérieure"
+      },
+      {
+        "id": "helen-reeves",
+        "name": "Helen Reeves",
+        "role": "Consultante en rénovation"
+      },
+      {
+        "id": "jake-nicholson",
+        "name": "Jake Nicholson",
+        "role": "Consultant couleur"
+      }
+    ]
+  },
+  "gallery": {
+    "eyebrow": "Inspirations en images",
+    "srHeading": "Idées de peinture, de finitions et de rénovation",
+    "watermark": "GALERIE"
+  },
+  "newsletter": {
+    "eyebrow": "Restez informé",
+    "headingStart": "Des conseils pour",
+    "headingAccent": "vos projets",
+    "lead": "Recevez, si vous le souhaitez, des conseils sur la peinture, les finitions et l’entretien de votre intérieur.",
+    "emailLabel": "Adresse e-mail",
+    "emailPlaceholder": "Votre adresse e-mail",
+    "subscribe": "S’inscrire à la newsletter",
+    "consent": "J’accepte de recevoir la newsletter et j’ai lu la politique de confidentialité.",
+    "success": "Votre demande d’inscription a bien été enregistrée.",
+    "error": "L’inscription n’a pas abouti. Veuillez réessayer.",
+    "invalid": "Saisissez une adresse e-mail valide."
+  },
+  "faq": {
+    "eyebrow": "Vos questions",
+    "headingStart": "Vos questions,",
+    "headingAccent": "nos réponses",
+    "lead": "L’essentiel à savoir avant vos travaux de peinture et de rénovation.",
+    "items": {
+      "painting": {
+        "question": "Proposez-vous la peinture intérieure et extérieure ?",
+        "answer": "Oui. Nous intervenons en peinture intérieure et extérieure, avec une préparation adaptée à l’état des supports et au projet convenu."
+      },
+      "plasterboard": {
+        "question": "Réalisez-vous la pose de Placo et les bandes ?",
+        "answer": "Oui. La pose de plaques de plâtre (Placo), les bandes et les joints font partie de nos prestations."
+      },
+      "skim": {
+        "question": "Faites-vous l’enduit et le ratissage avant peinture ?",
+        "answer": "Oui. Nous proposons l’enduit, le ratissage et la préparation des murs selon leur état et le rendu souhaité."
+      },
+      "renovation": {
+        "question": "Rénovez-vous les appartements et les maisons ?",
+        "answer": "Oui. Nous proposons la rénovation d’appartements et de maisons. L’étendue des travaux est définie après échange sur votre projet."
+      },
+      "repairs": {
+        "question": "Prenez-vous en charge les petites réparations ?",
+        "answer": "Oui. Nous réalisons du rattrapage et de petites réparations, notamment pour préparer une surface avant les finitions."
+      },
+      "quote": {
+        "question": "Le devis et le déplacement sont-ils gratuits ?",
+        "answer": "Oui. Le devis et le déplacement sont gratuits. Décrivez votre besoin via le moyen de contact disponible pour convenir de la suite."
+      },
+      "area": {
+        "question": "Où intervenez-vous et êtes-vous disponible 7j/7 ?",
+        "answer": "Nous intervenons à Paris et en Île-de-France. Nous sommes disponibles 7j/7 pour vos demandes ; les modalités d’intervention sont à convenir selon le projet."
+      }
+    }
+  },
+  "footer": {
+    "tagline": "Peinture et rénovation soignées à Paris et en Île-de-France. Devis et déplacement gratuits.",
+    "quickLinks": "Liens utiles",
+    "services": "Nos prestations",
+    "support": "Informations",
+    "copyright": "Tous droits réservés.",
+    "watermark": "PEINTURE",
+    "freeQuote": "Devis gratuit",
+    "privacy": "Confidentialité",
+    "legal": "Mentions légales",
+    "socialLabel": "Réseaux sociaux",
+    "contactLabel": "Coordonnées",
+    "area": "Zone d’intervention : Paris et Île-de-France"
+  }
+}

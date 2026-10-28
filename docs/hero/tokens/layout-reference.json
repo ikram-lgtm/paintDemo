@@ -1,0 +1,78 @@
+{
+  "referenceViewport": {
+    "width": 1536,
+    "height": 1024,
+    "unit": "px"
+  },
+  "inspiration": "Exact user-supplied screenshot; assets are related generated scene derivatives, not source design files.",
+  "assetPlacementRecommended": {
+    "src": "assets/house/scene-cutout.webp",
+    "leftPx": 38,
+    "topPx": 55,
+    "widthPx": 1459,
+    "heightPx": 972,
+    "naturalWidth": 1536,
+    "naturalHeight": 1024
+  },
+  "elements": {
+    "header": {
+      "left": 68,
+      "top": 31,
+      "right": 1475,
+      "height": 55
+    },
+    "headline": {
+      "left": 107,
+      "top": 112,
+      "right": 1450,
+      "bottom": 342,
+      "text": "СТРОИМ."
+    },
+    "leftCopy": {
+      "left": 75,
+      "top": 379,
+      "width": 240
+    },
+    "leftButton": {
+      "left": 73,
+      "top": 478,
+      "width": 232,
+      "height": 52
+    },
+    "card": {
+      "left": 1231,
+      "top": 387,
+      "width": 245,
+      "height": 267
+    },
+    "metrics": {
+      "left": 306,
+      "top": 897,
+      "right": 1210,
+      "height": 80
+    },
+    "scrollControl": {
+      "left": 1395,
+      "top": 901,
+      "diameter": 57
+    }
+  },
+  "layersBottomToTop": [
+    "sky",
+    "distant treeline(optional)",
+    "large display heading",
+    "photographic scene cutout",
+    "optional close foreground foliage",
+    "header and text and card and metrics"
+  ],
+  "colors": {
+    "skyTop": "#D4E8F7",
+    "skyBottom": "#F6F0E9",
+    "ink": "#111213",
+    "card": "#FFFFFF",
+    "muted": "#747676",
+    "border": "#B4B7B7",
+    "buttonInk": "#151515"
+  },
+  "contentTrustNotice": "The phone number, statistics, and business claims are reference artwork only. Confirm real values before public release."
+}

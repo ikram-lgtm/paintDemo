@@ -1,0 +1,85 @@
+{
+  "name": "RENOVATION_LUXURY_SPLIT_SECTION_CURSOR",
+  "files": [
+    {
+      "path": "ASSET_MANIFEST.md",
+      "bytes": 3478
+    },
+    {
+      "path": "CURSOR_IMPLEMENTATION_PROMPT.md",
+      "bytes": 3209
+    },
+    {
+      "path": "DESIGN.md",
+      "bytes": 7652
+    },
+    {
+      "path": "QA_CHECKLIST.md",
+      "bytes": 2134
+    },
+    {
+      "path": "README.md",
+      "bytes": 2448
+    },
+    {
+      "path": "RESPONSIVE.md",
+      "bytes": 2829
+    },
+    {
+      "path": "assets/images/ambient-room.webp",
+      "bytes": 6820
+    },
+    {
+      "path": "assets/images/living-room-desktop.webp",
+      "bytes": 60536
+    },
+    {
+      "path": "assets/images/living-room-master.png",
+      "bytes": 533407
+    },
+    {
+      "path": "assets/images/living-room-mobile.webp",
+      "bytes": 42542
+    },
+    {
+      "path": "assets/svg/architectural-grid.svg",
+      "bytes": 412
+    },
+    {
+      "path": "assets/svg/arrow-right.svg",
+      "bytes": 255
+    },
+    {
+      "path": "assets/svg/corner-lines.svg",
+      "bytes": 224
+    },
+    {
+      "path": "assets/svg/fine-gold-rule.svg",
+      "bytes": 159
+    },
+    {
+      "path": "implementation/RenovationShowcase.module.css",
+      "bytes": 4555
+    },
+    {
+      "path": "implementation/RenovationShowcase.tsx",
+      "bytes": 2175
+    },
+    {
+      "path": "references/APPROVED_REFERENCE.png",
+      "bytes": 1867164
+    },
+    {
+      "path": "references/DESKTOP_IMPLEMENTATION_PREVIEW.png",
+      "bytes": 702166
+    },
+    {
+      "path": "references/MOBILE_320_PREVIEW.png",
+      "bytes": 161574
+    },
+    {
+      "path": "references/MOBILE_IMPLEMENTATION_PREVIEW.png",
+      "bytes": 210753
+    }
+  ]
+}

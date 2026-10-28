@@ -1,0 +1,15 @@
+/* Scope to the Services section; avoid touching global hero/header styles. */
+.services-section {
+  --services-bg: #f8f6f1;
+  --services-surface: #ffffff;
+  --services-heading: #092927;
+  --services-gold: #ae8853;
+  --services-caption: #a48250;
+  --services-overlay: rgba(5, 21, 19, 0.88);
+  --services-text-white: #ffffff;
+  --services-grid-gap: 6px;
+  --services-max-width: 1680px;
+  --services-focus: #17674e;
+  background: var(--services-bg);
+  color: var(--services-heading);
+}

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" fill="none" role="img" aria-label="Architectural technical construction wireframe">
+<title>Architectural technical construction wireframe</title>
+
+<g stroke="#C0A37C" stroke-width="1.9" opacity=".60" stroke-linecap="round" stroke-linejoin="round">
+ <path d="m104 327 386-246 367 209-364 245-389-208Z"/><path d="M104 327v209l389 66V535M857 290v231l-364 81"/>
+ <path d="m104 327 387 67 366-104M490 81l3 313M493 394v141"/>
+ <path d="m217 347 275-181 254 133-254 170-275-122zM217 347v193M746 299v233"/>
+ <path d="M289 476v-134l146 26v151M522 462V345l127-64v151M333 393h62M558 391l61-31"/>
+ <path d="M89 537 495 612l371-85M89 565l408 75 369-91"/>
+</g>
+<g stroke="#C0A37C" opacity=".31" stroke-width="1.1" stroke-dasharray="7 8"><path d="M53 297 489 22 909 263M60 592l430-275 461 259M490 0v640M0 330h1000"/></g>
+
+</svg>

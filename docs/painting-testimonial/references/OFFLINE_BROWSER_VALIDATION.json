@@ -1,0 +1,52 @@
+{
+  "1440": {
+    "overflow": false,
+    "img_ok": true,
+    "img_count": 6,
+    "header_x": 125,
+    "photo_x": 125,
+    "stage_h": 420,
+    "height": 1082,
+    "pageErrors": []
+  },
+  "1024": {
+    "overflow": false,
+    "img_ok": true,
+    "img_count": 6,
+    "header_x": 32,
+    "photo_x": 32,
+    "stage_h": 305,
+    "height": 839,
+    "pageErrors": []
+  },
+  "768": {
+    "overflow": false,
+    "img_ok": true,
+    "img_count": 6,
+    "header_x": 69,
+    "photo_x": 69,
+    "stage_h": 290,
+    "height": 1249,
+    "pageErrors": []
+  },
+  "390": {
+    "overflow": false,
+    "img_ok": true,
+    "img_count": 6,
+    "header_x": 18,
+    "photo_x": 18,
+    "stage_h": 250,
+    "height": 1191,
+    "pageErrors": []
+  },
+  "320": {
+    "overflow": false,
+    "img_ok": true,
+    "img_count": 6,
+    "header_x": 18,
+    "photo_x": 18,
+    "stage_h": 250,
+    "height": 1116,
+    "pageErrors": []
+  }
+}

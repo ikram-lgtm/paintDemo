@@ -1,0 +1,10 @@
+/* Documented scoped design values; component ships its own CSS module. */
+:root {
+  --expertise-ivory: #f8f6f2;
+  --expertise-stone: #eee8de;
+  --expertise-ink: #102923;
+  --expertise-dark: #17352e;
+  --expertise-gold: #ae824c;
+  --expertise-card-radius: 8px;
+  --expertise-grid-gap: 12px;
+}

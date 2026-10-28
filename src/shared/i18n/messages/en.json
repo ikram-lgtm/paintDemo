@@ -1,0 +1,275 @@
+{
+  "seo": {
+    "homeTitle": "Painter in Paris & Île-de-France | Free quote",
+    "homeDescription": "Interior and exterior painting, plasterboard, skimming, joint finishing and renovations in Paris and Île-de-France. Free quotes and site visits.",
+    "ogTitle": "Painting and renovation in Paris and Île-de-France",
+    "ogDescription": "Professional painting, finishing and renovation services. Free quotes and site visits."
+  },
+  "global": {
+    "brandTagline": "Professional painter • Paris & Île-de-France",
+    "switchLanguage": "Choose language",
+    "languageCurrent": "Current language",
+    "menuOpen": "Open menu",
+    "menuClose": "Close menu",
+    "navLabel": "Main navigation",
+    "callToAction": "Request a free quote",
+    "contactAction": "Contact us",
+    "nextSection": "Scroll to next section",
+    "backToTop": "Back to top",
+    "learnMore": "Learn more",
+    "available7days": "Available 7 days a week",
+    "location": "Paris and Île-de-France"
+  },
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "serviceAreas": "Service areas",
+    "paris": "Paris",
+    "ileDeFrance": "Île-de-France",
+    "projects": "Projects",
+    "inspiration": "Inspiration",
+    "beforeAfter": "Before & after",
+    "about": "About us",
+    "blog": "Tips & guides",
+    "contact": "Contact",
+    "faq": "FAQ",
+    "allServices": "All services",
+    "allAreas": "All service areas",
+    "allProjects": "All projects",
+    "requestQuote": "Free quote"
+  },
+  "services": {
+    "interior": "Interior painting",
+    "exterior": "Exterior painting",
+    "plasterboard": "Plasterboard installation (Placo)",
+    "skimming": "Plastering and skimming",
+    "jointTaping": "Joint taping and finishing",
+    "apartment": "Apartment renovation",
+    "house": "House renovation",
+    "repairs": "Surface touch-ups and small repairs"
+  },
+  "hero": {
+    "eyebrow": "Professional painter in Paris and Île-de-France",
+    "title": "Painting & renovation",
+    "titleAccent": "with care.",
+    "lead": "Interior and exterior painting, plasterboard, plastering, skimming and home renovation. Careful workmanship, free quotes and site visits.",
+    "mobileLead": "Painting, plasterboard, finishing and renovation in Paris and Île-de-France. Free quotes and visits.",
+    "primaryCta": "Request a free quote",
+    "secondaryCta": "Explore our services",
+    "quoteTitle": "Free quote and site visit",
+    "quoteBody": "Tell us about your space and the work you have in mind. We’ll discuss the next steps together.",
+    "quoteButton": "Ask for a quote",
+    "regionTag": "Paris • Île-de-France",
+    "availability": "Available 7 days a week for enquiries",
+    "imageAlt": "Illustration of a renovated home with terrace and garden",
+    "metrics": [
+      { "value": "10+", "label": "Years experience" },
+      { "value": "250+", "label": "Projects done" },
+      { "value": "98%", "label": "Would recommend" }
+    ]
+  },
+  "expertise": {
+    "eyebrow": "Our expertise",
+    "headingStart": "From preparation",
+    "headingAccent": "to beautiful finishes",
+    "cards": {
+      "listen": "Listen",
+      "prepare": "Prepare",
+      "precision": "Apply",
+      "transform": "Renovate",
+      "finishes": "Finish with care"
+    },
+    "sliderLabel": "Our approach stages"
+  },
+  "showcase": {
+    "eyebrow": "Painting & renovation",
+    "headingStart": "Spaces renewed.",
+    "headingAccent": "Finishes with care.",
+    "cta": "Explore our services",
+    "imageAlt": "Illustration of a renovated interior with light finishes",
+    "watermark": "RENOVATION"
+  },
+  "editorial": {
+    "eyebrow": "Our services",
+    "headingStart": "Beautifully finished surfaces,",
+    "headingAccent": "renewed spaces",
+    "lead": "Interior and exterior painting, Placo installation, plastering, skimming, joint finishing and home renovations, carried out with care across Paris and Île-de-France.",
+    "all": "View all 8 services",
+    "less": "Show fewer",
+    "selectAria": "Choose a service"
+  },
+  "process": {
+    "eyebrow": "Our approach",
+    "headingStart": "Interior and exterior painting",
+    "headingAccent": "with careful finishing",
+    "lead": "From choosing colours to preparing surfaces and completing the finish, we pay attention to every stage of the job.",
+    "tagStart": "Care in every detail.",
+    "tagAccent": "From start to finish.",
+    "stepsAria": "Typical painting project stages",
+    "steps": {
+      "consult": {
+        "title": "Advice and colour selection",
+        "description": "Discuss your needs, surfaces and preferred finish."
+      },
+      "prep": {
+        "title": "Surface preparation",
+        "description": "Prepare walls and address minor imperfections according to their condition."
+      },
+      "paint": {
+        "title": "Interior / exterior painting",
+        "description": "Apply paint suited to the agreed scope of work."
+      },
+      "finish": {
+        "title": "Finishing and clean-up",
+        "description": "Check the finishes and leave the area tidy."
+      }
+    },
+    "houseAlt": "Illustration of a house undergoing interior and exterior painting",
+    "watermark": "PAINTING"
+  },
+  "projects": {
+    "eyebrow": "Ideas & inspiration",
+    "headingStart": "Spaces that",
+    "headingAccent": "inspire your ideas",
+    "lead": "Explore finishes and interiors for ideas for your next painting or renovation project. These are illustrative visuals, not claimed completed projects.",
+    "disclosure": "Illustrative images — not actual project records",
+    "regionAria": "Inspiration gallery. Scroll horizontally.",
+    "previous": "Previous image",
+    "next": "Next image",
+    "view": "View inspiration",
+    "items": {
+      "lounge": "Bright living room",
+      "dining": "Refined dining area",
+      "stairs": "Minimal staircase",
+      "classic": "Soft-toned lounge",
+      "exterior": "Refreshed exterior"
+    }
+  },
+  "testimonials": {
+    "eyebrow": "Customer reviews",
+    "headingStart": "Your feedback,",
+    "headingAccent": "our motivation",
+    "note": "Genuine reviews, published with permission and a verifiable source.",
+    "source": "Read the original review",
+    "imageAlt": "Interior painting and finishing work in progress"
+  },
+  "panorama": {
+    "eyebrow": "Our specialities",
+    "headingStart": "An interior that feels like yours,",
+    "headingAccent": "finishes that make the difference",
+    "caption": "Illustrative image only — no interactive 360° virtual tour is provided.",
+    "imageAlt": "Illustrative panorama of an interior with painted walls and carefully finished surfaces",
+    "pillars": {
+      "painting": "Interior painting",
+      "exterior": "Exterior painting",
+      "placo": "Plasterboard and Placo",
+      "plaster": "Plastering and skimming",
+      "joints": "Joint taping and touch-ups",
+      "renovation": "Apartment / home renovation"
+    }
+  },
+  "team": {
+    "eyebrow": "Our Professional Team",
+    "headingStart": "Meet The",
+    "headingAccent": "Experts Our",
+    "headingAccentSecond": "Interior",
+    "headingTail": "Designers",
+    "lead": "Our experienced team of interior painters, designers, and renovation experts work together to bring your vision to life with quality, precision, and care.",
+    "rosterLabel": "Our team members",
+    "members": [
+      {
+        "id": "mark-jackson",
+        "name": "Mark Jackson",
+        "role": "Lead Interior Painter & Designer"
+      },
+      {
+        "id": "valeria-novikova",
+        "name": "Valeria Novikova",
+        "role": "Interior Design Specialist"
+      },
+      {
+        "id": "alex-podzemskiy",
+        "name": "Alex Podzemskiy",
+        "role": "Exterior Painting Expert"
+      },
+      {
+        "id": "helen-reeves",
+        "name": "Helen Reeves",
+        "role": "Renovation Consultant"
+      },
+      {
+        "id": "jake-nicholson",
+        "name": "Jake Nicholson",
+        "role": "Color Consultant"
+      }
+    ]
+  },
+  "gallery": {
+    "eyebrow": "Inspiration gallery",
+    "srHeading": "Painting, finishing and renovation inspiration",
+    "watermark": "GALLERY"
+  },
+  "newsletter": {
+    "eyebrow": "Stay in touch",
+    "headingStart": "Tips for",
+    "headingAccent": "your projects",
+    "lead": "Opt in to receive tips on painting, finishing and caring for your home.",
+    "emailLabel": "Email address",
+    "emailPlaceholder": "Your email address",
+    "subscribe": "Subscribe to newsletter",
+    "consent": "I agree to receive the newsletter and have read the privacy policy.",
+    "success": "Your subscription request was received.",
+    "error": "We could not process your request. Please try again.",
+    "invalid": "Enter a valid email address."
+  },
+  "faq": {
+    "eyebrow": "Your questions",
+    "headingStart": "Your questions,",
+    "headingAccent": "our answers",
+    "lead": "What to know before starting painting or renovation work.",
+    "items": {
+      "painting": {
+        "question": "Do you offer both interior and exterior painting?",
+        "answer": "Yes. We offer interior and exterior painting, with surface preparation suited to the existing condition and agreed work."
+      },
+      "plasterboard": {
+        "question": "Do you install Placo and finish the joints?",
+        "answer": "Yes. Plasterboard (Placo) installation, joint taping and joint finishing are part of our services."
+      },
+      "skim": {
+        "question": "Do you plaster and skim walls before painting?",
+        "answer": "Yes. We offer plastering, skimming and wall preparation based on the wall’s condition and the finish required."
+      },
+      "renovation": {
+        "question": "Do you renovate apartments and houses?",
+        "answer": "Yes. We offer apartment and house renovation. The scope is agreed after discussing your project."
+      },
+      "repairs": {
+        "question": "Can you handle minor repairs?",
+        "answer": "Yes. We handle surface touch-ups and small repairs, including preparation before finishing work."
+      },
+      "quote": {
+        "question": "Are quotes and site visits free?",
+        "answer": "Yes. Quotes and site visits are free. Share your requirements through the available contact channel so we can discuss next steps."
+      },
+      "area": {
+        "question": "Where do you work, and are you available seven days a week?",
+        "answer": "We work in Paris and Île-de-France. We are available seven days a week for enquiries; work appointments are arranged according to the project."
+      }
+    }
+  },
+  "footer": {
+    "tagline": "Careful painting and renovation in Paris and Île-de-France. Free quotes and site visits.",
+    "quickLinks": "Quick links",
+    "services": "Our services",
+    "support": "Information",
+    "copyright": "All rights reserved.",
+    "watermark": "PAINTING",
+    "freeQuote": "Free quote",
+    "privacy": "Privacy policy",
+    "legal": "Legal notice",
+    "socialLabel": "Social networks",
+    "contactLabel": "Contact information",
+    "area": "Service area: Paris and Île-de-France"
+  }
+}

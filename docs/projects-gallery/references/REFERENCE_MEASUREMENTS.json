@@ -1,0 +1,77 @@
+{
+  "referenceCanvas": [
+    1672,
+    941
+  ],
+  "header": {
+    "badge": [
+      204,
+      65,
+      350,
+      96
+    ],
+    "dividerX": 518,
+    "headlineOrigin": [
+      569,
+      75
+    ],
+    "headlineFontApprox": 55,
+    "descriptionOrigin": [
+      570,
+      206
+    ]
+  },
+  "cardImages": [
+    {
+      "name": "left-preview",
+      "rect": [
+        -211,
+        291,
+        180,
+        740
+      ]
+    },
+    {
+      "name": "luxe-dining-retreat",
+      "rect": [
+        207,
+        335,
+        598,
+        782
+      ]
+    },
+    {
+      "name": "minimal-stair-studio",
+      "rect": [
+        624,
+        291,
+        1021,
+        740
+      ]
+    },
+    {
+      "name": "classic-living-renewal",
+      "rect": [
+        1046,
+        335,
+        1435,
+        776
+      ]
+    },
+    {
+      "name": "right-preview",
+      "rect": [
+        1457,
+        303,
+        1852,
+        741
+      ]
+    }
+  ],
+  "cardGapPx": 25,
+  "cardWidthPx": 392,
+  "raisedTopPx": 291,
+  "loweredTopPx": 335,
+  "verticalDifferencePx": 44,
+  "visualScrollTarget": "Partial left card / three full cards / partial right card"
+}

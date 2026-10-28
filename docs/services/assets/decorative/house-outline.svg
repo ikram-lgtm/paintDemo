@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" fill="none" aria-hidden="true">
+  <defs>
+    <linearGradient id="houseInk" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#7E9BB0" stop-opacity=".42"/>
+      <stop offset="1" stop-color="#B7C9D6" stop-opacity=".08"/>
+    </linearGradient>
+  </defs>
+  <g stroke="url(#houseInk)" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M96 255 387 25 705 271M117 263 387 48 670 268M190 270 389 110 612 275M68 266l319-257 335 266"/>
+    <path d="M141 247v270h505V270M185 275v224h415V278M181 513h490M273 303h156v196H273zM290 321h120v178H290zM350 321v178M290 407h120"/>
+    <path d="M476 319h106v119H476zM491 330h76v97h-76zM529 330v97M491 377h76M476 444h106"/>
+    <path d="M216 290v-25l171-140 182 146M145 516l-48 31h636l-85-31M387 9l-13 59 13-59 17 61"/>
+    <path d="M139 292h510M181 305h420M273 306l-45-36M429 306l41-36M476 318l-20-17M582 319l29-23"/>
+    <path d="M718 412c25-50 62-73 86-99 11-12 19-38 10-50M719 430c35-42 60-78 107-102M726 450c51-19 75-28 104-26M807 283c8-35 26-44 43-58M833 340c-6-34 12-53 35-66"/>
+    <path d="M60 465c38-72 71-104 103-115M99 511c-16-88-19-143-49-166M94 438c14-46 26-56 39-69M93 420c-36-21-43-42-51-65"/>
+  </g>
+  <g stroke="#9BB0C0" stroke-opacity=".18" stroke-width="1">
+    <path d="M184 300v194M189 303v190M196 308v180M205 310v180M212 311v180M601 302v194M609 303v192M616 304v191M623 303v194"/>
+  </g>
+</svg>

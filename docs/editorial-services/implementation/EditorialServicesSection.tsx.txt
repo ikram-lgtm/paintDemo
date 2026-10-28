@@ -1,0 +1,128 @@
+'use client';
+
+import Image from 'next/image';
+import Link from 'next/link';
+import { useId, useState } from 'react';
+import {
+  editorialServices,
+  type EditorialService,
+  type ServiceId,
+} from './services-data';
+import styles from './EditorialServicesSection.module.css';
+
+type Props = {
+  /** Supply existing CMS items when integrated. Defaults to the eight specified services. */
+  services?: readonly EditorialService[];
+  /** Optional route action. When absent, the featured arrow advances the selection. */
+  onServiceAction?: (id: ServiceId) => void;
+};
+
+export default function EditorialServicesSection({
+  services = editorialServices,
+  onServiceAction,
+}: Props) {
+  const [selectedId, setSelectedId] = useState<ServiceId>('interior-painting');
+  const [expanded, setExpanded] = useState(false);
+  const instanceId = useId();
+  const active = services.find((item) => item.id === selectedId) ?? services[0];
+  const visible = expanded ? services : services.slice(0, 5);
+
+  if (!active) return null;
+
+  function selectNext() {
+    const index = services.findIndex((item) => item.id === active.id);
+    setSelectedId(services[(index + 1) % services.length].id);
+  }
+
+  const featureAction = onServiceAction
+    ? () => onServiceAction(active.id)
+    : selectNext;
+
+  const featureLabel = active.href || onServiceAction
+    ? `Explore ${active.title}`
+    : 'Show the next service';
+
+  return (
+    <section className={styles.section} aria-labelledby={`${instanceId}-heading`}>
+      <div className={styles.inner}>
+        <header className={styles.headingBlock}>
+          <div className={styles.eyebrow}>
+            <span className={styles.rule} aria-hidden="true" />
+            OUR SERVICES
+            <span className={styles.rule} aria-hidden="true" />
+          </div>
+          <h2 className={styles.heading} id={`${instanceId}-heading`}>
+            Transforming Spaces <span>With Purpose</span>
+          </h2>
+          <p className={styles.description}>
+            We bring ideas to life through thoughtful design, quality craftsmanship,
+            <br className={styles.desktopBreak} /> and complete renovation solutions tailored to your space.
+          </p>
+        </header>
+
+        <div className={styles.content}>
+          <div className={styles.feature} aria-live="polite" aria-atomic="true">
+            <Image
+              key={active.image}
+              src={active.image}
+              alt={active.imageAlt}
+              fill
+              sizes="(max-width: 760px) 100vw, (max-width: 1200px) 57vw, 58vw"
+              className={styles.featureImage}
+            />
+            <div className={styles.featurePanel}>
+              <span className={styles.featureOverline}>CRAFTED FOR YOUR SPACE</span>
+              <div className={styles.featureBottom}>
+                <span className={styles.featureTitle}>{active.title}</span>
+                {active.href ? (
+                  <Link href={active.href} className={styles.featureButton} aria-label={featureLabel}>
+                    <Image src="/assets/renovation-editorial/decor/arrow-right.svg" width={23} height={23} alt="" />
+                  </Link>
+                ) : (
+                  <button className={styles.featureButton} onClick={featureAction} type="button" aria-label={featureLabel}>
+                    <Image src="/assets/renovation-editorial/decor/arrow-right.svg" width={23} height={23} alt="" />
+                  </button>
+                )}
+              </div>
+            </div>
+          </div>
+
+          <div className={styles.serviceColumn}>
+            <div className={styles.serviceList} aria-label="Choose a renovation service">
+              {visible.map((service, index) => {
+                const selected = active.id === service.id;
+                return (
+                  <button
+                    key={service.id}
+                    type="button"
+                    aria-pressed={selected}
+                    className={`${styles.serviceRow} ${selected ? styles.selected : ''}`}
+                    onClick={() => setSelectedId(service.id)}
+                  >
+                    <span className={styles.number}>{String(index + 1).padStart(2, '0')}</span>
+                    <span className={styles.rowTitle}>{service.title}</span>
+                    <Image className={styles.decorIcon} src={service.icon} alt="" aria-hidden width={68} height={65} />
+                    <span className={styles.circle} aria-hidden="true">
+                      <Image src="/assets/renovation-editorial/decor/arrow-right.svg" width={23} height={23} alt="" />
+                    </span>
+                  </button>
+                );
+              })}
+            </div>
+            {services.length > 5 && (
+              <button
+                type="button"
+                className={styles.showMore}
+                onClick={() => setExpanded((value) => !value)}
+                aria-expanded={expanded}
+              >
+                {expanded ? 'Show fewer services' : `View all ${services.length} services`}
+                <span aria-hidden="true">{expanded ? '−' : '+'}</span>
+              </button>
+            )}
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}

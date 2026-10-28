@@ -1,0 +1,83 @@
+@import "tailwindcss";
+
+:root {
+  --sky-top: #d4e8f7;
+  --sky-bottom: #f6f0e9;
+  --ink: #111213;
+  --card: #ffffff;
+  --muted: #747676;
+  --border: #b4b7b7;
+  --button-ink: #151515;
+  --background: var(--sky-bottom);
+  --foreground: var(--ink);
+  --hero-ref-w: 1536;
+  --hero-ref-h: 1024;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-ink: var(--ink);
+  --color-muted: var(--muted);
+  --color-border: var(--border);
+  --color-card: var(--card);
+  --color-button-ink: var(--button-ink);
+  --color-sky-top: var(--sky-top);
+  --color-sky-bottom: var(--sky-bottom);
+  --font-sans: var(--font-nourd);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto !important;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+
+  .parallaxLayer,
+  .scrollAnimatedSvg,
+  .imageKenBurns {
+    animation: none !important;
+    transform: none !important;
+  }
+}
+
+body {
+  margin: 0;
+  min-height: 100%;
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-nourd), system-ui, sans-serif;
+  overflow-x: hidden;
+}
+
+a:focus-visible,
+button:focus-visible {
+  outline: 2px solid var(--ink);
+  outline-offset: 3px;
+}
+
+@keyframes fadeSlide {
+  from {
+    opacity: 0;
+    transform: translateY(-8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

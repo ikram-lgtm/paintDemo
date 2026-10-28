@@ -1,0 +1,53 @@
+{
+  "assets/background/distant-treeline.webp": {
+    "width": 1536,
+    "height": 430,
+    "bytes": 10968,
+    "mode": "RGBA"
+  },
+  "assets/background/sky-daylight.webp": {
+    "width": 1536,
+    "height": 1024,
+    "bytes": 5888,
+    "mode": "RGB"
+  },
+  "assets/brand/house-outline-mark.svg": {
+    "bytes": 396
+  },
+  "assets/foreground/soft-leaves-left.webp": {
+    "width": 347,
+    "height": 395,
+    "bytes": 19030,
+    "mode": "RGBA"
+  },
+  "assets/foreground/soft-leaves-right.webp": {
+    "width": 292,
+    "height": 391,
+    "bytes": 16482,
+    "mode": "RGBA"
+  },
+  "assets/house/house-garden-alternative-master.png": {
+    "width": 1254,
+    "height": 1254,
+    "bytes": 2870489,
+    "mode": "RGBA"
+  },
+  "assets/house/house-garden-alternative.webp": {
+    "width": 1254,
+    "height": 1254,
+    "bytes": 455342,
+    "mode": "RGBA"
+  },
+  "assets/house/scene-cutout-master.png": {
+    "width": 1536,
+    "height": 1024,
+    "bytes": 2889629,
+    "mode": "RGBA"
+  },
+  "assets/house/scene-cutout.webp": {
+    "width": 1536,
+    "height": 1024,
+    "bytes": 420630,
+    "mode": "RGBA"
+  }
+}

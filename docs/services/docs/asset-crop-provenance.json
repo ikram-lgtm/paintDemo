@@ -1,0 +1,106 @@
+[
+  {
+    "slug": "interior-painting",
+    "file": "assets/services/interior-painting.webp",
+    "small_file": "assets/services/interior-painting-sm.webp",
+    "width": 1050,
+    "height": 600,
+    "source_crop": [
+      33,
+      246,
+      430,
+      461
+    ]
+  },
+  {
+    "slug": "exterior-painting",
+    "file": "assets/services/exterior-painting.webp",
+    "small_file": "assets/services/exterior-painting-sm.webp",
+    "width": 1050,
+    "height": 600,
+    "source_crop": [
+      445,
+      246,
+      856,
+      461
+    ]
+  },
+  {
+    "slug": "plasterboard-installation",
+    "file": "assets/services/plasterboard-installation.webp",
+    "small_file": "assets/services/plasterboard-installation-sm.webp",
+    "width": 1050,
+    "height": 600,
+    "source_crop": [
+      875,
+      246,
+      1285,
+      461
+    ]
+  },
+  {
+    "slug": "plastering-skimming",
+    "file": "assets/services/plastering-skimming.webp",
+    "small_file": "assets/services/plastering-skimming-sm.webp",
+    "width": 1050,
+    "height": 600,
+    "source_crop": [
+      1302,
+      246,
+      1690,
+      461
+    ]
+  },
+  {
+    "slug": "joint-taping",
+    "file": "assets/services/joint-taping.webp",
+    "small_file": "assets/services/joint-taping-sm.webp",
+    "width": 1050,
+    "height": 600,
+    "source_crop": [
+      33,
+      548,
+      430,
+      757
+    ]
+  },
+  {
+    "slug": "apartment-renovation",
+    "file": "assets/services/apartment-renovation.webp",
+    "small_file": "assets/services/apartment-renovation-sm.webp",
+    "width": 1050,
+    "height": 600,
+    "source_crop": [
+      445,
+      548,
+      856,
+      757
+    ]
+  },
+  {
+    "slug": "house-renovation",
+    "file": "assets/services/house-renovation.webp",
+    "small_file": "assets/services/house-renovation-sm.webp",
+    "width": 1050,
+    "height": 600,
+    "source_crop": [
+      875,
+      548,
+      1285,
+      757
+    ]
+  },
+  {
+    "slug": "small-repairs",
+    "file": "assets/services/small-repairs.webp",
+    "small_file": "assets/services/small-repairs-sm.webp",
+    "width": 1050,
+    "height": 600,
+    "source_crop": [
+      1302,
+      548,
+      1690,
+      757
+    ]
+  }
+]

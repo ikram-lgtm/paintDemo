@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" fill="none" role="img" aria-label="Technical house elevation linework">
+<title>Technical house elevation linework</title>
+
+<g stroke="#C0A37C" stroke-width="1.55" opacity=".50" stroke-linejoin="round" stroke-linecap="round">
+ <path d="M45 392 330 143 675 360V613H45V392Z"/><path d="M330 143V16l335 250 163-122 133 121V614H675"/>
+ <path d="M45 392 330 216 675 423M330 143 330 615M675 360l152-146 135 100"/>
+ <path d="M115 615V407l171-115v322M376 615V309l203 119v188"/>
+ <path d="M725 615V379l90-93 111 82v246M725 496h201M818 286v329"/>
+ <path d="M160 456v160M217 417v199M422 341v274M487 378v237M554 412v203"/>
+ <path d="M37 615h933M120 166 330 23l285 198M535 95l142 103" stroke-dasharray="6 8"/>
+</g>
+<g stroke="#C0A37C" opacity=".33" stroke-width="1.3"><path d="M60 270Q88 202 110 270M84 244v185M900 190q65-180 93 0M943 95v350"/></g>
+
+</svg>
