@@ -1,0 +1,66 @@
+.paintPro /* 07 — approved staggered six-frame visual and lower services marquee */
+.s7{position:relative;overflow:hidden;padding-bottom:0;padding-top:120px;isolation:isolate}
+.paintPro .s7-arc{position:absolute;z-index:-1;top:-210px;width:850px;height:850px;border:1px solid #dfebd1;border-radius:50%;pointer-events:none}
+.paintPro .arc-left{left:-360px}
+.paintPro .arc-right{right:-370px}
+.paintPro .s7-icon{position:absolute;width:55px;height:55px;border-radius:50%;background:var(--olive-light);display:grid;place-items:center}
+.paintPro .float-one{left:5%;top:65px;background:var(--olive-dark)}
+.paintPro .float-one img{filter:brightness(0) invert(1)}
+.paintPro .float-two{left:15%;top:135px}
+.paintPro .float-three{right:8%;top:70px}
+.paintPro .s7-head{text-align:center;position:relative;margin:auto;max-width:1050px;z-index:3}
+.paintPro .s7-head h2{font-size:clamp(39px,4.6vw,75px);margin:25px 0 45px;font-weight:500;letter-spacing:-.04em}
+.paintPro .s7-head>.pill{position:absolute;right:-220px;top:110px}
+.paintPro .s7-gallery{position:relative;display:grid;grid-template-columns:1.0fr 1.05fr 1.36fr 1.3fr .80fr;column-gap:18px;align-items:end;min-height:510px;margin-top:8px;margin-bottom:36px}
+.paintPro .hand-note{position:absolute;left:0;top:-155px;font-style:italic;font-size:clamp(19px,2vw,30px);color:#9aaa88;line-height:1.15;transform:rotate(-8deg)}
+.paintPro .hand-note span{display:block;text-align:right;margin:0 10px 0 0;font-size:45px}
+.paintPro .stagger-photo{position:relative;overflow:hidden;border-radius:28px;display:block;isolation:isolate}
+.paintPro .stagger-painter{height:335px;margin-bottom:2px}
+.paintPro .stagger-main{height:470px}
+.paintPro .stagger-exterior{height:460px}
+.paintPro .stagger-plaster{height:340px;margin-bottom:10px}
+.paintPro .stagger-mini-stack{display:grid;gap:18px}
+.paintPro .corner-icon{position:absolute;top:17px;left:17px;width:51px;height:51px;background:#eef2e4ed;border-radius:18px;display:grid;place-items:center}
+.paintPro .stagger-label{position:absolute;bottom:18px;left:16px;right:16px;display:flex;justify-content:space-between;align-items:center;gap:5px;padding:15px 13px 15px 20px;border-radius:21px;background:#fff;color:var(--ink);font-size:clamp(15px,1.4vw,21px);font-weight:600;line-height:1.22}
+.paintPro .stagger-label svg{border-radius:50%;background:var(--olive-light);padding:6px;width:38px;height:38px;flex-shrink:0}
+.paintPro .stagger-mini{height:224px;display:flex;flex-direction:column;background:#f6f6ef;border-radius:24px;overflow:hidden;padding:15px 15px 0}
+.paintPro .stagger-mini-head{display:flex;align-items:center;gap:12px;font-size:clamp(13px,1.2vw,18px);font-weight:600;line-height:1.13}
+.paintPro .stagger-mini-head>svg{margin-left:auto}
+.paintPro .stagger-mini-head img{background:var(--olive-light);width:43px;height:43px;border-radius:16px;padding:9px}
+.paintPro .stagger-mini-photo{position:relative;flex:1;border-radius:18px 18px 0 0;margin-top:15px;overflow:hidden}
+.paintPro .marquee{background:#edf3dd;height:86px;overflow:hidden;display:flex;align-items:center;border-top:1px solid #e2e8d8}
+.paintPro .marquee-track{display:flex;align-items:center;width:max-content;animation:paintPro-marquee-move 40s linear infinite}
+.paintPro .marquee:hover .marquee-track{animation-play-state:paused}
+.paintPro .marquee-group{display:flex;gap:0;flex-shrink:0}
+.paintPro .marquee-group>span{display:flex;align-items:center;gap:15px;padding:0 45px;border-right:1px solid #b0be9c;font-size:17px;font-weight:500;white-space:nowrap}
+@keyframes paintPro-marquee-move{to{transform:translateX(-50%)}}
+.paintPro /* 08 — left FAQ intro, .paintPro right native accessible accordion, .paintPro giant statement and bottom full bleed visual */
+.s8{background:#fdfcf8}
+.paintPro .faq-grid{display:grid;grid-template-columns:.88fr 1.12fr;gap:clamp(65px,10vw,210px);padding-top:120px;padding-bottom:130px}
+.paintPro .small-line{width:65px;height:1px;background:var(--accent);display:block;margin-bottom:35px}
+.paintPro .faq-intro h2{font-size:clamp(40px,4.4vw,71px);margin:0 0 28px;font-weight:500;letter-spacing:-.04em}
+.paintPro .faq-intro p{font-size:clamp(14px,1.15vw,18px);max-width:410px}
+.paintPro .faq-list{align-self:start}
+.paintPro .faq-item{border-bottom:1px solid #dcded7}
+.paintPro .faq-item>button{background:transparent;padding:23px 0;width:100%;display:flex;align-items:center;justify-content:space-between;gap:14px;border:0;text-align:left;font-size:clamp(15px,1.25vw,19px);font-weight:600}
+.paintPro .faq-chevron{flex-shrink:0;transition:transform .25s}
+.paintPro .faq-open .faq-chevron{transform:rotate(180deg)}
+.paintPro .faq-open>button{color:var(--olive-dark)}
+.paintPro .faq-answer{overflow:hidden}
+.paintPro .faq-answer p{max-width:600px;font-size:14px;margin:0 25px 22px 0}
+.paintPro .footer-statement{border-top:1px solid #b9c5b0;border-bottom:1px solid #b9c5b0;padding-top:52px;padding-bottom:52px}
+.paintPro .footer-statement h2{font-size:clamp(38px,6vw,94px);white-space:nowrap;letter-spacing:-.04em;font-weight:600;line-height:1.05;margin:0;text-align:center}
+.paintPro .footer-nav{min-height:104px;display:flex;align-items:center;justify-content:space-between;gap:20px;font-size:13px}
+.paintPro .footer-nav nav{display:flex;flex-wrap:wrap;justify-content:center;gap:20px}
+.paintPro .footer-nav small{font-size:11px}
+.paintPro .back-top{display:flex;align-items:center;gap:6px;color:var(--olive-dark)}
+.paintPro .footer-image{height:clamp(400px,55vw,750px);position:relative;overflow:hidden;display:flex;justify-content:center;align-items:center;isolation:isolate}
+.paintPro .footer-image>.photo-cover{z-index:-2}
+.paintPro .footer-image-shade{position:absolute;inset:0;z-index:-1;background:linear-gradient(0deg,#10251947,#15352308)}
+.paintPro .footer-image strong{color:white;font-weight:800;letter-spacing:-.04em;font-size:clamp(88px,17vw,320px);line-height:.8;text-shadow:0 8px 35px #0003;white-space:nowrap}
+.paintPro /* Subtle animated 2D accents; each is transform-only and reduced-motion safe. */
+.float-one{animation:paintPro-icon-bob 5.6s ease-in-out infinite alternate}
+.paintPro .float-two{animation:paintPro-icon-bob 4.8s ease-in-out infinite alternate-reverse}
+.paintPro .float-three{animation:paintPro-icon-bob 6s ease-in-out infinite alternate}
+@keyframes paintPro-icon-bob{from{transform:translateY(0) rotate(-3deg)}to{transform:translateY(-13px) rotate(3deg)}}
+.paintPro .stagger-photo:hover .corner-icon img, .paintPro .service-tile:hover .service-icon img{transform:rotate(-13deg) scale(1.09);transition:transform .36s ease}

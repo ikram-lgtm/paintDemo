@@ -1,0 +1,60 @@
+.paintPro /* 03 — Service-comparison house composition: center visual, .paintPro paired small cards */
+.s3{padding-top:90px}
+.paintPro .s3 .centered-header h2{font-size:clamp(38px,4.5vw,72px)}
+.paintPro .s3-benefits{display:flex;justify-content:center;gap:0;margin:40px auto 45px;color:var(--olive-dark);font-weight:600}
+.paintPro .s3-benefits span{padding:0 clamp(16px,3vw,50px);border-right:1px solid #9ea78b}
+.paintPro .s3-benefits span:last-child{border:0}
+.paintPro .comparison-layout{display:grid;grid-template-columns:minmax(190px,1fr) minmax(380px,1.75fr) minmax(190px,1fr);align-items:center;gap:24px}
+.paintPro .mini-column{display:grid;gap:22px;z-index:1}
+.paintPro .compare-mini{padding:15px;background:white;border:1px solid #e6e8e1;border-radius:26px;box-shadow:0 15px 24px #35452d08;transition:transform .3s}
+.paintPro .compare-mini:hover{transform:translateY(-5px)}
+.paintPro .compare-mini-title{display:flex;align-items:center;gap:12px;margin-bottom:14px;font-size:clamp(13px,1.1vw,17px);line-height:1.15}
+.paintPro .compare-mini-title img{padding:8px;background:var(--olive-light);width:43px;height:43px;border-radius:50%}
+.paintPro .compare-mini-photo{position:relative;height:145px;overflow:hidden;border-radius:18px}
+.paintPro .compare-main{position:relative;align-self:stretch;min-height:570px;border-radius:28px;overflow:hidden}
+.paintPro .compare-images{position:absolute;inset:0;overflow:hidden;border-radius:28px;background:#cbd2c6}
+.paintPro .compare-images>.photo-cover{filter:saturate(.97)}
+.paintPro .compare-before{position:absolute;inset:0;overflow:hidden}
+.paintPro .compare-before .photo-cover{filter:saturate(.66) contrast(.95)}
+.paintPro .compare-divider{width:3px;background:white;position:absolute;top:0;bottom:0;box-shadow:0 0 10px #0004;pointer-events:none}
+.paintPro .compare-divider span{width:60px;height:60px;display:grid;place-items:center;position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);border-radius:50%;background:white;box-shadow:0 2px 14px #0004;font-weight:800;font-size:25px}
+.paintPro .compare-caption{position:absolute;bottom:25px;font-size:14px;border-radius:100px;padding:9px 19px;background:#14221dbb;color:white;pointer-events:none}
+.paintPro .before-caption{left:22px}
+.paintPro .after-caption{right:22px;background:#647448d9}
+.paintPro .compare-range{position:absolute;left:0;bottom:0;width:100%;height:100%;opacity:0;cursor:ew-resize;z-index:3}
+.paintPro /* 04 — Video visual + center-dominant project frames */
+.s4{padding-top:95px}
+.paintPro .s4-cinema{height:clamp(370px,42vw,610px);position:relative;overflow:hidden;isolation:isolate;background:#364239}
+.paintPro .s4-video{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:-2}
+.paintPro .s4-video-shade{position:absolute;inset:0;z-index:-1;background:linear-gradient(0deg,#101c19b9,transparent 52%)}
+.paintPro .cinema-play{position:absolute;top:42%;left:50%;transform:translate(-50%,-50%);width:90px;height:90px;display:grid;place-items:center;border-radius:50%;border:1px solid #fff8;color:white;background:#111a15a0;backdrop-filter:blur(9px);transition:scale .25s}
+.paintPro .cinema-play:hover{scale:1.12}
+.paintPro .cinema-copy{position:absolute;bottom:36px;left:var(--side);right:var(--side);display:flex;align-items:end;justify-content:space-between;gap:30px;color:white}
+.paintPro .cinema-copy h2{font-size:clamp(34px,4.6vw,75px);margin:13px 0 0;font-weight:500;letter-spacing:-.04em}
+.paintPro .cinema-copy h2 em{color:#d5e2b6}
+.paintPro .cinema-copy p{max-width:400px;color:white;font-size:clamp(14px,1.15vw,18px);line-height:1.55;margin:0}
+.paintPro .outline-tag{display:inline-block;padding:8px 18px;border:1px solid #ffffff80;border-radius:50px;font-size:12px;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:white}
+.paintPro .s4-header{padding-top:85px}
+.paintPro .s4-header h2{font-size:clamp(32px,4vw,65px);font-weight:500;letter-spacing:-.04em}
+.paintPro .location-tag{margin-top:20px}
+.paintPro .project-carousel{margin-top:46px;display:grid;grid-template-columns:1fr 1.9fr 1fr;align-items:start;gap:23px}
+.paintPro .project-card{min-width:0}
+.paintPro .project-small{padding-top:28px}
+.paintPro .project-photo{height:270px;border-radius:20px;overflow:hidden;position:relative}
+.paintPro .project-featured .project-photo{height:400px}
+.paintPro .project-card h3{font-size:clamp(16px,1.6vw,23px);margin:18px 0 7px;letter-spacing:-.025em}
+.paintPro .project-card p{font-size:13px;margin:0}
+.paintPro .project-detail-button{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);border:0;background:#161b19;color:#fff;width:125px;height:125px;border-radius:50%;font-size:16px;line-height:1.22;box-shadow:0 14px 25px #0003;transition:scale .2s}
+.paintPro .project-detail-button:hover{scale:1.1}
+.paintPro .carousel-footer{display:flex;justify-content:flex-end;gap:12px;margin-top:10px}
+.paintPro .carousel-footer button, .paintPro .service-controls button{border:1px solid #d7dfcd;background:white;border-radius:50%;width:54px;height:54px;display:grid;place-items:center;color:var(--olive-dark)}
+.paintPro .carousel-footer button:hover, .paintPro .service-controls button:hover{background:var(--olive-light)}
+.paintPro .dialog-backdrop{position:fixed;inset:0;z-index:50;background:#000b;display:flex;align-items:center;justify-content:center;padding:24px;backdrop-filter:blur(4px)}
+.paintPro .media-dialog, .paintPro .project-dialog{position:relative;max-width:1000px;width:min(100%,1000px);border-radius:24px;background:#fff;overflow:hidden;box-shadow:0 40px 100px #0007}
+.paintPro .media-dialog video{display:block;width:100%;max-height:75vh;background:#17201a}
+.paintPro .media-dialog p{margin:12px 22px 16px;font-size:13px}
+.paintPro .dialog-close{position:absolute;z-index:5;top:14px;right:14px;border:0;background:#fff;width:42px;height:42px;border-radius:50%;display:grid;place-items:center}
+.paintPro .project-dialog{max-width:720px}
+.paintPro .detail-image{height:320px;position:relative}
+.paintPro .detail-body{padding:30px}
+.paintPro .detail-body h3{font-size:32px;margin:16px 0}

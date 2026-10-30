@@ -1,0 +1,27 @@
+.paintPro /* 01 — Approved centered hero geometry */
+.s1{padding:19px clamp(8px,2vw,28px) 0;background:#fff}
+.paintPro .topbar{max-width:1600px;margin:auto;display:flex;align-items:center;gap:24px;justify-content:space-between;height:77px;padding:0 clamp(10px,3.2vw,28px)}
+.paintPro .wordmark{font-size:clamp(28px,3vw,47px);letter-spacing:-.04em;color:#122d23;line-height:1;font-weight:800}
+.paintPro .wordmark span{color:#76815a}
+.paintPro .nav-links{display:flex;gap:clamp(18px,2vw,35px);margin-left:auto;font-size:14px;font-weight:500}
+.paintPro .nav-links a:hover{color:var(--olive)}
+.paintPro .nav-locale{border-left:1px solid #d1d1ce;padding-left:20px;font-size:12px;color:#737d6b}
+.paintPro .hero-stage{max-width:1600px;margin:0 auto;min-height:clamp(560px,55vw,770px);border-radius:25px;overflow:hidden;position:relative;isolation:isolate}
+.paintPro .hero-stage>.photo-cover{z-index:-3}
+.paintPro .hero-overlay{position:absolute;inset:0;background:linear-gradient(90deg,rgba(13,25,18,.2),transparent 68%),linear-gradient(0deg,rgba(9,17,13,.18),transparent 50%);z-index:-1}
+.paintPro .hero-center{position:absolute;top:44%;left:50%;width:min(95%,1350px);translate:-50% -30%;text-align:center;color:#fff}
+.paintPro .hero-center h1{font-size:clamp(44px,7vw,112px);line-height:.95;letter-spacing:-.04em;margin:0 0 36px;font-weight:800;text-shadow:0 4px 25px rgba(0,0,0,.18)}
+.paintPro .hero-inset{position:absolute;bottom:40px;left:38%;height:145px;width:280px;border-radius:22px;overflow:hidden;border:6px solid rgba(255,255,255,.23);box-shadow:0 12px 26px #0004}
+.paintPro /* 02 — Four offset tall rounded photo frames */
+.s2{padding-top:165px;padding-bottom:112px}
+.paintPro .category-cards{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));column-gap:clamp(13px,2.2vw,35px);align-items:start}
+.paintPro .category-card{height:550px;border-radius:30px;overflow:hidden;display:block;position:relative;isolation:isolate;box-shadow:0 10px 22px #18241b0e}
+.paintPro .category-card:nth-child(odd){height:445px;margin-top:106px}
+.paintPro .category-shade{position:absolute;inset:35% 0 0;background:linear-gradient(transparent,#020a06bd)}
+.paintPro .category-bottom{position:absolute;bottom:24px;left:24px;right:15px;display:flex;flex-direction:column;gap:13px;color:#fff;font-size:clamp(16px,1.65vw,24px);letter-spacing:-.035em;line-height:1.15}
+.paintPro .category-bottom img{filter:brightness(0) invert(1)}
+.paintPro .category-editorial{margin-top:125px;display:grid;grid-template-columns:1.1fr .8fr;gap:60px;align-items:end}
+.paintPro .eyebrow-line{display:flex;align-items:center;gap:24px;color:var(--accent);font-size:12px;font-weight:700;letter-spacing:.18em;text-transform:uppercase}
+.paintPro .eyebrow-line i{width:120px;height:1px;background:var(--accent);display:inline-block}
+.paintPro .category-editorial h2{font-size:clamp(39px,5vw,78px);margin:21px 0 0;font-weight:500;letter-spacing:-.04em}
+.paintPro .category-editorial p{font-size:clamp(14px,1.15vw,18px);max-width:550px;margin:0 0 8px}

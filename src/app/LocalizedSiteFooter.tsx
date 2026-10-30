@@ -8,6 +8,13 @@ import { getDictionary } from "@/shared/i18n/dictionaries";
 /** Reads locale from proxy header; must sit inside Suspense for Cache Components. */
 export async function LocalizedSiteFooter() {
   const headerList = await headers();
+  const pathname = headerList.get("x-pathname") ?? "";
+  if (
+    pathname.startsWith("/paintpro") ||
+    pathname.includes("/experience")
+  ) {
+    return null;
+  }
   const raw = headerList.get("x-locale");
   const locale = raw && isLocale(raw) ? raw : defaultLocale;
   const footer = buildHomepageContent(locale, getDictionary(locale)).footer;

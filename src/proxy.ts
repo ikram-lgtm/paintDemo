@@ -18,6 +18,7 @@ const PASSTHROUGH_PREFIXES = [
   "/etapy",
   "/kontakty",
   "/raschet",
+  "/paintpro",
 ] as const;
 
 function preferredLocale(request: NextRequest): Locale {
@@ -26,6 +27,17 @@ function preferredLocale(request: NextRequest): Locale {
     return cookie;
   }
   return defaultLocale;
+}
+
+function withPathname(
+  request: NextRequest,
+  extra?: Headers,
+): NextResponse {
+  const requestHeaders = new Headers(extra ?? request.headers);
+  requestHeaders.set("x-pathname", request.nextUrl.pathname);
+  return NextResponse.next({
+    request: { headers: requestHeaders },
+  });
 }
 
 export function proxy(request: NextRequest) {
@@ -40,7 +52,7 @@ export function proxy(request: NextRequest) {
   }
 
   if (PASSTHROUGH_PREFIXES.some((prefix) => pathname.startsWith(prefix))) {
-    return NextResponse.next();
+    return withPathname(request);
   }
 
   const segments = pathname.split("/").filter(Boolean);
@@ -49,6 +61,7 @@ export function proxy(request: NextRequest) {
   if (maybeLocale && isLocale(maybeLocale)) {
     const requestHeaders = new Headers(request.headers);
     requestHeaders.set("x-locale", maybeLocale);
+    requestHeaders.set("x-pathname", pathname);
     const response = NextResponse.next({
       request: { headers: requestHeaders },
     });
@@ -73,7 +86,7 @@ export function proxy(request: NextRequest) {
     return NextResponse.redirect(url);
   }
 
-  return NextResponse.next();
+  return withPathname(request);
 }
 
 export const config = {

@@ -1,0 +1,53 @@
+.paintPro /* 05 — Approved one large left frame, .paintPro stacked right frames and four footer counters */
+.s5{padding-top:95px}
+.paintPro .expert-grid{display:grid;grid-template-columns:1.75fr 1fr;gap:22px}
+.paintPro .expert-main{min-width:0;position:relative;padding-bottom:92px}
+.paintPro .expert-photo{position:relative;height:clamp(360px,35vw,550px);overflow:hidden;border-radius:27px}
+.paintPro .expert-photo .photo-cover{object-position:center}
+.paintPro .expert-label{position:absolute;left:22px;top:clamp(295px,30vw,495px);z-index:2;box-shadow:0 4px 14px #0001;background:#fff}
+.paintPro .expert-main h2{position:absolute;bottom:5px;left:20px;margin:0;font-size:clamp(44px,5.3vw,80px);line-height:.94;letter-spacing:-.04em;font-weight:600;text-shadow:-8px 0 0 var(--paper),8px 0 0 var(--paper);z-index:1}
+.paintPro .expert-side{display:grid;grid-template-rows:1fr 1fr;gap:22px}
+.paintPro .gallery-card{position:relative;min-height:240px;background:#f5f2eb;border-radius:28px;padding:34px;overflow:hidden}
+.paintPro .gallery-card h3{font-size:clamp(23px,2.3vw,36px);letter-spacing:-.04em;font-weight:600;margin:28px 0 0;position:relative;z-index:2;line-height:1.1}
+.paintPro .gallery-link{font-size:13px;color:var(--olive-dark);display:inline-block;margin-top:18px;border-bottom:1px solid var(--olive);padding-bottom:8px;position:relative;z-index:2}
+.paintPro .tilted-photo{position:absolute;right:15px;top:10px;width:135px;height:155px;border-radius:18px;overflow:hidden;transform:rotate(-14deg);border:5px solid #fff;box-shadow:0 10px 24px #0002}
+.paintPro .tilt-2{right:-10px;top:70px;transform:rotate(13deg)}
+.paintPro .exterior-card{border-radius:28px;overflow:hidden;position:relative;min-height:260px;isolation:isolate;padding:28px;display:flex;flex-direction:column;align-items:flex-start}
+.paintPro .exterior-card .photo-cover{z-index:-2}
+.paintPro .exterior-card::before{content:"";position:absolute;inset:0;background:linear-gradient(90deg,#132117c9,transparent);z-index:-1}
+.paintPro .exterior-card .tag{background:#ffffffe3}
+.paintPro .exterior-card h3{font-size:clamp(23px,2.4vw,38px);line-height:1.16;color:#fff;margin:35px 0 10px;max-width:340px;font-weight:500}
+.paintPro .exterior-card .round-arrow{position:absolute;right:23px;bottom:23px;background:#111c17;color:white;border:2px solid white}
+.paintPro .expert-facts{display:grid;grid-template-columns:repeat(4,1fr);margin-top:24px}
+.paintPro .expert-fact{display:flex;flex-direction:column;align-items:center;justify-content:center;border-right:1px solid #cbd4c6;padding:20px 8px;gap:17px}
+.paintPro .expert-fact:last-child{border:0}
+.paintPro .fact-number{font-size:clamp(39px,4vw,62px);letter-spacing:-.04em;font-weight:600}
+.paintPro .expert-fact>div{display:flex;align-items:center;gap:16px;color:var(--muted);font-size:15px}
+.paintPro .expert-fact>div img{padding:8px;background:var(--olive-light);width:45px;height:45px;border-radius:50%}
+.paintPro /* 06 — angled paint panel, .paintPro three compact photographic service cards, .paintPro benefits strip */
+.s6{max-width:var(--max)}
+.paintPro .transform-top{display:grid;grid-template-columns:1.06fr 1.65fr;gap:18px;align-items:end}
+.paintPro .transform-splash{min-height:485px;position:relative;overflow:hidden;border-radius:32px 115px 65px 32px;isolation:isolate}
+.paintPro .transform-splash>.photo-cover{z-index:-3;object-position:60% 55%}
+.paintPro .splash-shade{position:absolute;inset:0;z-index:-1;background:linear-gradient(90deg,#fcfcf9f5,#fcfcf981 43%,#fcfcf900 85%)}
+.paintPro .splash-content{position:relative;padding:30px 35px;max-width:510px}
+.paintPro .splash-content h2{font-size:clamp(41px,4vw,68px);margin:21px 0;font-weight:500;letter-spacing:-.04em}
+.paintPro .splash-content p{max-width:270px;color:#4e5552;font-size:clamp(14px,1.15vw,18px);margin:0 0 28px}
+.paintPro .service-carousel{min-width:0}
+.paintPro .service-controls{display:flex;align-items:center;justify-content:end;gap:10px;margin-bottom:18px}
+.paintPro .service-controls button{width:46px;height:46px}
+.paintPro .service-track{flex:1;height:1px;background:#cbd3c3;margin-right:10px;display:flex;justify-content:space-between;align-items:center}
+.paintPro .service-track i{width:12px;height:12px;background:#bfc8b2;border-radius:50%;display:block}
+.paintPro .service-track i:first-child{background:var(--olive-dark)}
+.paintPro .service-cards{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
+.paintPro .service-tile{padding:10px;border:1px solid #e6e9df;border-radius:26px;background:#fff;box-shadow:0 11px 30px #40563d08;min-width:0}
+.paintPro .service-tile-photo{height:250px;position:relative;border-radius:18px;overflow:hidden}
+.paintPro .service-icon{position:absolute;left:13px;top:13px;padding:11px;border-radius:18px;background:#eef2e4ec}
+.paintPro .service-tile-footer{display:flex;justify-content:space-between;align-items:center;gap:3px;padding:18px 8px 9px}
+.paintPro .service-tile h3{font-size:clamp(14px,1.2vw,19px);letter-spacing:-.04em;line-height:1.18;margin:0}
+.paintPro .circle-link{flex:0 0 39px;width:39px;height:39px}
+.paintPro .benefits-bar{margin-top:35px;border-radius:22px;background:#f5f6f0;min-height:105px;display:grid;grid-template-columns:repeat(4,1fr);align-items:center;padding:19px 17px}
+.paintPro .benefit{display:flex;align-items:center;justify-content:center;gap:14px;font-size:clamp(13px,1.1vw,17px);border-right:1px solid #d6dfd2;padding:0 7px}
+.paintPro .benefit:last-child{border-right:0}
+.paintPro .benefit strong{font-weight:500}
+.paintPro .benefit img{flex-shrink:0}
