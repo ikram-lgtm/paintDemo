@@ -9,10 +9,7 @@ import { getDictionary } from "@/shared/i18n/dictionaries";
 export async function LocalizedSiteFooter() {
   const headerList = await headers();
   const pathname = headerList.get("x-pathname") ?? "";
-  if (
-    pathname.startsWith("/paintpro") ||
-    pathname.includes("/experience")
-  ) {
+  if (pathname.includes("/paintpro") || pathname.includes("/experience")) {
     return null;
   }
   const raw = headerList.get("x-locale");

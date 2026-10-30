@@ -62,6 +62,22 @@ export function proxy(request: NextRequest) {
     const requestHeaders = new Headers(request.headers);
     requestHeaders.set("x-locale", maybeLocale);
     requestHeaders.set("x-pathname", pathname);
+
+    // Locale-prefixed marketing pages that live outside [locale]
+    if (segments[1] === "paintpro") {
+      const url = request.nextUrl.clone();
+      url.pathname = "/paintpro";
+      const response = NextResponse.rewrite(url, {
+        request: { headers: requestHeaders },
+      });
+      response.cookies.set(localeCookieName, maybeLocale, {
+        path: "/",
+        maxAge: 60 * 60 * 24 * 365,
+        sameSite: "lax",
+      });
+      return response;
+    }
+
     const response = NextResponse.next({
       request: { headers: requestHeaders },
     });
