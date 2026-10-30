@@ -27,19 +27,33 @@
   .paintPro .category-bottom {
     font-size: 14px;
   }
-  .paintPro .mini-column {
-    grid-template-columns: 1fr;
+  .paintPro .comparison-layout {
+    grid-template-columns: minmax(0, 0.8fr) minmax(0, 1.5fr) minmax(0, 0.8fr);
+    gap: 6px;
   }
   .paintPro .compare-main {
-    min-height: 300px;
+    min-height: 280px;
   }
   .paintPro .compare-mini-title img {
-    width: 36px;
-    height: 36px;
-    padding: 6px;
+    width: 32px;
+    height: 32px;
+    padding: 5px;
+  }
+  .paintPro .compare-mini-title {
+    font-size: 10px;
   }
   .paintPro .s4-cinema {
     height: 420px;
+  }
+  .paintPro .project-carousel {
+    grid-template-columns: 0.65fr 1.5fr 0.65fr;
+    gap: 6px;
+  }
+  .paintPro .project-photo {
+    height: 150px;
+  }
+  .paintPro .project-featured .project-photo {
+    height: 230px;
   }
   .paintPro .expert-photo {
     height: 300px;
@@ -48,28 +62,39 @@
     font-size: 42px;
   }
   .paintPro .expert-facts {
-    grid-template-columns: 1fr;
-  }
-  .paintPro .expert-fact {
-    border-right: 0;
-    border-bottom: 1px solid #cbd4c6;
-  }
-  .paintPro .expert-fact:last-child {
-    border-bottom: 0;
+    grid-template-columns: 1fr 1fr;
   }
   .paintPro .service-tile-photo {
-    height: 180px;
+    height: 110px;
   }
-  .paintPro .stagger-painter,
-  .paintPro .stagger-main,
-  .paintPro .stagger-exterior {
-    height: 240px;
+  .paintPro .service-tile h3 {
+    font-size: 11px;
+  }
+  .paintPro .s7-gallery {
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+  }
+  .paintPro .stagger-painter {
+    height: 200px;
+    grid-column: 1;
+    grid-row: 1;
   }
   .paintPro .stagger-mini-stack {
-    grid-template-columns: 1fr;
+    grid-column: 2;
+    grid-row: 1;
+  }
+  .paintPro .stagger-main {
+    height: 220px;
+    grid-column: 1;
+    grid-row: 2;
+  }
+  .paintPro .stagger-exterior {
+    height: 220px;
+    grid-column: 2;
+    grid-row: 2;
   }
   .paintPro .stagger-mini {
-    height: 140px;
+    height: 94px;
   }
   .paintPro .footer-image {
     height: 300px;

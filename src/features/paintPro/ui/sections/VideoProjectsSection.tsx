@@ -58,6 +58,11 @@ export function VideoProjectsSection() {
     });
     return () => observer.kill();
   }, [active]);
+  useEffect(() => {
+    if (videoOpen || detailOpen) return;
+    const id = window.setInterval(() => move(1), 5200);
+    return () => window.clearInterval(id);
+  }, [videoOpen, detailOpen, active]);
 
   const detailLines = copy.video.viewDetails.split("\n");
 
@@ -146,6 +151,19 @@ export function VideoProjectsSection() {
         ))}
       </div>
       <div className="carousel-footer site-container">
+        <div className="carousel-dots" role="tablist" aria-label="Projets">
+          {projects.map((project, index) => (
+            <button
+              key={project.title}
+              type="button"
+              role="tab"
+              aria-selected={index === active}
+              aria-label={project.title}
+              className={index === active ? "is-active" : undefined}
+              onClick={() => setActive(index)}
+            />
+          ))}
+        </div>
         <button aria-label="Projet précédent" onClick={() => move(-1)}>
           <LuArrowLeft />
         </button>

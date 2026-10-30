@@ -1,5 +1,5 @@
 "use client";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { LuArrowLeft, LuArrowRight, LuArrowUpRight } from "react-icons/lu";
 import { motion } from "motion/react";
 import { Icon } from "@/features/paintPro/ui/Icon";
@@ -18,6 +18,12 @@ export function TransformSection() {
     const service = services[(active + n) % services.length];
     return service ? [service] : [];
   });
+  useEffect(() => {
+    const id = window.setInterval(() => {
+      setActive((x) => (x + 1) % services.length);
+    }, 5600);
+    return () => window.clearInterval(id);
+  }, [active]);
   return (
     <SectionMotion id="services" className="s6 spacious site-container">
       <div className="transform-top">

@@ -37,7 +37,7 @@
 .paintPro .s4-header{padding-top:85px}
 .paintPro .s4-header h2{font-size:clamp(32px,4vw,65px);font-weight:500;letter-spacing:-.04em}
 .paintPro .location-tag{margin-top:20px}
-.paintPro .project-carousel{margin-top:46px;display:grid;grid-template-columns:1fr 1.9fr 1fr;align-items:start;gap:23px}
+.paintPro .project-carousel{margin-top:46px;display:grid;grid-template-columns:1fr 1.9fr 1fr;align-items:start;gap:23px;touch-action:pan-y}
 .paintPro .project-card{min-width:0}
 .paintPro .project-small{padding-top:28px}
 .paintPro .project-photo{height:270px;border-radius:20px;overflow:hidden;position:relative}
@@ -46,7 +46,20 @@
 .paintPro .project-card p{font-size:13px;margin:0}
 .paintPro .project-detail-button{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);border:0;background:#161b19;color:#fff;width:125px;height:125px;border-radius:50%;font-size:16px;line-height:1.22;box-shadow:0 14px 25px #0003;transition:scale .2s}
 .paintPro .project-detail-button:hover{scale:1.1}
-.paintPro .carousel-footer{display:flex;justify-content:flex-end;gap:12px;margin-top:10px}
+.paintPro .carousel-footer{display:flex;align-items:center;justify-content:flex-end;gap:12px;margin-top:10px}
+.paintPro .carousel-dots{display:flex;align-items:center;gap:8px;margin-right:auto}
+.paintPro .carousel-dots>button{width:9px;height:9px;border-radius:50%;border:0;padding:0;background:#c5ceba;cursor:pointer}
+.paintPro .carousel-dots>button.is-active{background:var(--olive-dark);transform:scale(1.2)}
+@media(max-width:740px){
+  .paintPro .project-carousel{grid-template-columns:.72fr 1.55fr .72fr;gap:10px;align-items:end}
+  .paintPro .project-small{padding-top:18px}
+  .paintPro .project-photo{height:190px}
+  .paintPro .project-featured .project-photo{height:280px}
+  .paintPro .project-card h3{font-size:clamp(13px,3.4vw,16px)}
+  .paintPro .project-card p{font-size:12px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+  .paintPro .project-detail-button{width:88px;height:88px;font-size:12px}
+  .paintPro .carousel-footer{justify-content:center;margin-top:16px}
+}
 .paintPro .carousel-footer button, .paintPro .service-controls button{border:1px solid #d7dfcd;background:white;border-radius:50%;width:54px;height:54px;display:grid;place-items:center;color:var(--olive-dark)}
 .paintPro .carousel-footer button:hover, .paintPro .service-controls button:hover{background:var(--olive-light)}
 .paintPro .dialog-backdrop{position:fixed;inset:0;z-index:50;background:#000b;display:flex;align-items:center;justify-content:center;padding:24px;backdrop-filter:blur(4px)}

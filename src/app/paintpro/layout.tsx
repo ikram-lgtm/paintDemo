@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 
+import { PaintProHeader } from "@/app/paintpro/PaintProHeader";
+
 export const metadata: Metadata = {
   title: "Peintre à Paris et en Île-de-France | Devis gratuit",
   description:
@@ -10,5 +12,10 @@ export const metadata: Metadata = {
 export default function PaintProLayout({
   children,
 }: Readonly<{ children: React.ReactNode }>) {
-  return children;
+  return (
+    <>
+      <PaintProHeader />
+      {children}
+    </>
+  );
 }

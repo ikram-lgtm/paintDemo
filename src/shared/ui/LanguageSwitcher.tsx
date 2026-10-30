@@ -2,6 +2,7 @@
 
 import { AnimatePresence, motion } from "motion/react";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 import { useEffect, useId, useRef, useState } from "react";
 
 import {
@@ -25,6 +26,13 @@ const localeLabel: Record<Locale, string> = {
   nl: "NL",
 };
 
+function localeHref(pathname: string, nextLocale: Locale): string {
+  if (pathname === "/paintpro" || pathname.endsWith("/paintpro")) {
+    return `/${nextLocale}/paintpro`;
+  }
+  return `/${nextLocale}`;
+}
+
 export function LanguageSwitcher({
   locale,
   label,
@@ -33,6 +41,7 @@ export function LanguageSwitcher({
   const [open, setOpen] = useState(false);
   const rootRef = useRef<HTMLDivElement>(null);
   const listId = useId();
+  const pathname = usePathname() ?? "/";
   const { allowRevealMotion, viewport, reduceMotion } = useMotionPreferences();
 
   useEffect(() => {
@@ -107,7 +116,7 @@ export function LanguageSwitcher({
             {locales.map((item) => (
               <li key={item} role="option" aria-selected={item === locale}>
                 <Link
-                  href={`/${item}`}
+                  href={localeHref(pathname, item)}
                   hrefLang={item}
                   lang={item}
                   aria-current={item === locale ? "true" : undefined}

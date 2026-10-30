@@ -1,11 +1,9 @@
-.paintPro /* 01 — Approved centered hero geometry */
-.s1{padding:19px clamp(8px,2vw,28px) 0;background:#fff}
-.paintPro .topbar{max-width:1600px;margin:auto;display:flex;align-items:center;gap:24px;justify-content:space-between;height:77px;padding:0 clamp(10px,3.2vw,28px)}
-.paintPro .wordmark{font-size:clamp(28px,3vw,47px);letter-spacing:-.04em;color:#122d23;line-height:1;font-weight:800}
-.paintPro .wordmark span{color:#76815a}
-.paintPro .nav-links{display:flex;gap:clamp(18px,2vw,35px);margin-left:auto;font-size:14px;font-weight:500}
-.paintPro .nav-links a:hover{color:var(--olive)}
-.paintPro .nav-locale{border-left:1px solid #d1d1ce;padding-left:20px;font-size:12px;color:#737d6b}
+.paintPro /* 01 — Hero clears fixed homepage SiteHeader */
+.s1{
+  --paintpro-header-space:calc(clamp(8px,1.2vw,16px) + clamp(0.75rem,0.65rem + 0.35vw,1rem) * 1.7 + 52px);
+  padding:var(--paintpro-header-space) clamp(8px,2vw,28px) 0;
+  background:#fff;
+}
 .paintPro .hero-stage{max-width:1600px;margin:0 auto;min-height:clamp(560px,55vw,770px);border-radius:25px;overflow:hidden;position:relative;isolation:isolate}
 .paintPro .hero-stage>.photo-cover{z-index:-3}
 .paintPro .hero-overlay{position:absolute;inset:0;background:linear-gradient(90deg,rgba(13,25,18,.2),transparent 68%),linear-gradient(0deg,rgba(9,17,13,.18),transparent 50%);z-index:-1}

@@ -67,37 +67,40 @@
     max-width: none;
   }
   .paintPro .service-cards {
-    grid-template-columns: 1fr;
-    gap: 12px;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 8px;
   }
   .paintPro .service-tile {
-    padding: 10px;
-    border-radius: 20px;
+    padding: 6px;
+    border-radius: 16px;
   }
   .paintPro .service-tile-photo {
-    height: 200px;
+    height: 140px;
   }
   .paintPro .service-tile h3 {
-    font-size: 16px;
+    font-size: 12px;
   }
   .paintPro .circle-link {
-    flex-basis: 40px;
-    width: 40px;
-    height: 40px;
+    flex-basis: 32px;
+    width: 32px;
+    height: 32px;
   }
   .paintPro .benefits-bar {
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(2, 1fr);
     gap: 0;
-    padding: 8px 16px;
+    padding: 12px;
   }
   .paintPro .benefit {
     justify-content: flex-start;
-    border-right: 0;
-    border-bottom: 1px solid #d6dfd2;
-    padding: 14px 4px;
+    border-right: 1px solid #d6dfd2;
+    padding: 12px 8px;
+    font-size: 12px;
   }
-  .paintPro .benefit:last-child {
-    border-bottom: 0;
+  .paintPro .benefit:nth-child(2n) {
+    border-right: 0;
+  }
+  .paintPro .benefit:nth-child(-n + 2) {
+    border-bottom: 1px solid #d6dfd2;
   }
   .paintPro .s7 {
     padding-top: 88px;
@@ -111,34 +114,35 @@
     margin: 20px 0 28px;
   }
   .paintPro .s7-gallery {
-    grid-template-columns: 1fr;
-    gap: 12px;
+    grid-template-columns: 1fr 1fr 1.25fr 1.2fr;
+    gap: 10px;
     min-height: 0;
     padding-inline: var(--side);
+    align-items: end;
   }
-  .paintPro .stagger-painter,
-  .paintPro .stagger-main,
-  .paintPro .stagger-exterior,
+  .paintPro .stagger-painter {
+    height: 220px;
+    grid-column: 1;
+    grid-row: 1;
+  }
   .paintPro .stagger-mini-stack {
-    grid-column: auto;
-    grid-row: auto;
-    height: auto;
-    margin: 0;
+    grid-column: 2;
+    grid-row: 1;
+    gap: 10px;
   }
-  .paintPro .stagger-painter,
-  .paintPro .stagger-main,
+  .paintPro .stagger-main {
+    height: 300px;
+    grid-column: 3;
+  }
   .paintPro .stagger-exterior {
-    height: 280px;
-  }
-  .paintPro .stagger-mini-stack {
-    grid-template-columns: 1fr 1fr;
-    gap: 12px;
+    height: 290px;
+    grid-column: 4;
   }
   .paintPro .stagger-mini {
-    height: 160px;
+    height: 104px;
   }
   .paintPro .stagger-mini-photo {
-    display: block;
+    display: none;
   }
   .paintPro .stagger-label {
     padding: 10px 12px;

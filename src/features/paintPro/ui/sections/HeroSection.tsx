@@ -1,5 +1,4 @@
 "use client";
-import Link from "next/link";
 import { motion } from "motion/react";
 import { Photo } from "@/features/paintPro/ui/Photo";
 import { SectionMotion } from "@/features/paintPro/ui/SectionMotion";
@@ -8,21 +7,6 @@ import { copy, image } from "@/features/paintPro/model/content";
 export function HeroSection() {
   return (
     <SectionMotion id="home" className="s1 section-shell" reveal={false}>
-      <header className="topbar">
-        <a href="#home" className="wordmark" aria-label={`${copy.brand} accueil`}>
-          <strong>{copy.brand}</strong>
-          <span>Peinture</span>
-        </a>
-        <nav className="nav-links" aria-label="Navigation principale">
-          <a href="#services">{copy.nav.services}</a>
-          <a href="#why-us">{copy.nav.about}</a>
-          <a href="#projects">{copy.nav.projects}</a>
-          <Link href="/free-quote">{copy.nav.contact}</Link>
-        </nav>
-        <span className="nav-locale" aria-label="Langue actuelle français">
-          {copy.localeLabel}
-        </span>
-      </header>
       <div className="hero-stage">
         <Photo
           src={image("hero-painters")}
