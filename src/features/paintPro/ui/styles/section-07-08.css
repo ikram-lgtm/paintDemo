@@ -48,16 +48,17 @@
 .paintPro .faq-open>button{color:var(--olive-dark)}
 .paintPro .faq-answer{overflow:hidden}
 .paintPro .faq-answer p{max-width:600px;font-size:14px;margin:0 25px 22px 0}
-.paintPro .footer-statement{border-top:1px solid #b9c5b0;border-bottom:1px solid #b9c5b0;padding-top:52px;padding-bottom:52px}
-.paintPro .footer-statement h2{font-size:clamp(38px,6vw,94px);white-space:nowrap;letter-spacing:-.04em;font-weight:600;line-height:1.05;margin:0;text-align:center}
-.paintPro .footer-nav{min-height:104px;display:flex;align-items:center;justify-content:space-between;gap:20px;font-size:13px}
+.paintPro .footer-statement{border-top:1px solid #b9c5b0;border-bottom:1px solid #b9c5b0;padding:clamp(28px,4vw,52px) var(--side);overflow-x:clip}
+.paintPro .footer-statement h2{font-size:clamp(26px,5.2vw,94px);letter-spacing:-.04em;font-weight:600;line-height:1.12;margin:0;text-align:center;text-wrap:balance;max-width:100%}
+@media(min-width:1100px){.paintPro .footer-statement h2{white-space:nowrap;line-height:1.05}}
+.paintPro .footer-nav{min-height:104px;display:flex;align-items:center;justify-content:space-between;gap:20px;font-size:13px;padding-inline:var(--side)}
 .paintPro .footer-nav nav{display:flex;flex-wrap:wrap;justify-content:center;gap:20px}
 .paintPro .footer-nav small{font-size:11px}
-.paintPro .back-top{display:flex;align-items:center;gap:6px;color:var(--olive-dark)}
-.paintPro .footer-image{height:clamp(400px,55vw,750px);position:relative;overflow:hidden;display:flex;justify-content:center;align-items:center;isolation:isolate}
+.paintPro .back-top{display:inline-flex;align-items:center;gap:6px;color:var(--olive-dark);white-space:nowrap}
+.paintPro .footer-image{height:clamp(320px,55vw,750px);position:relative;overflow:hidden;display:flex;justify-content:center;align-items:center;isolation:isolate;width:100%;max-width:100%}
 .paintPro .footer-image>.photo-cover{z-index:-2}
 .paintPro .footer-image-shade{position:absolute;inset:0;z-index:-1;background:linear-gradient(0deg,#10251947,#15352308)}
-.paintPro .footer-image strong{color:white;font-weight:800;letter-spacing:-.04em;font-size:clamp(88px,17vw,320px);line-height:.8;text-shadow:0 8px 35px #0003;white-space:nowrap}
+.paintPro .footer-image strong{color:white;font-weight:800;letter-spacing:-.04em;font-size:clamp(64px,18vw,320px);line-height:.8;text-shadow:0 8px 35px #0003;max-width:92%;overflow:hidden;text-align:center}
 .paintPro /* Subtle animated 2D accents; each is transform-only and reduced-motion safe. */
 .float-one{animation:paintPro-icon-bob 5.6s ease-in-out infinite alternate}
 .paintPro .float-two{animation:paintPro-icon-bob 4.8s ease-in-out infinite alternate-reverse}

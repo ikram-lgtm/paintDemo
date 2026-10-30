@@ -3,4 +3,7 @@
 @import "./section-03-04.css";
 @import "./section-05-06.css";
 @import "./section-07-08.css";
-@import "./responsive.css";
+@import "./responsive-tablet.css";
+@import "./responsive-phone-early.css";
+@import "./responsive-phone-late.css";
+@import "./responsive-small.css";

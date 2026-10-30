@@ -1,0 +1,83 @@
+@media (max-width: 430px) {
+  .paintPro {
+    --side: 14px;
+  }
+  .paintPro .hero-stage {
+    min-height: 540px;
+    border-radius: 14px;
+  }
+  .paintPro .hero-center h1 {
+    font-size: clamp(34px, 10vw, 44px);
+  }
+  .paintPro .hero-center .pill {
+    padding: 12px 20px;
+    font-size: 13px;
+  }
+  .paintPro .category-cards {
+    gap: 10px;
+  }
+  .paintPro .category-card,
+  .paintPro .category-card:nth-child(odd) {
+    height: 250px;
+  }
+  .paintPro .category-cards .category-card:nth-child(even) {
+    height: 280px;
+    margin-top: 22px;
+  }
+  .paintPro .category-bottom {
+    font-size: 14px;
+  }
+  .paintPro .mini-column {
+    grid-template-columns: 1fr;
+  }
+  .paintPro .compare-main {
+    min-height: 300px;
+  }
+  .paintPro .compare-mini-title img {
+    width: 36px;
+    height: 36px;
+    padding: 6px;
+  }
+  .paintPro .s4-cinema {
+    height: 420px;
+  }
+  .paintPro .expert-photo {
+    height: 300px;
+  }
+  .paintPro .expert-main h2 {
+    font-size: 42px;
+  }
+  .paintPro .expert-facts {
+    grid-template-columns: 1fr;
+  }
+  .paintPro .expert-fact {
+    border-right: 0;
+    border-bottom: 1px solid #cbd4c6;
+  }
+  .paintPro .expert-fact:last-child {
+    border-bottom: 0;
+  }
+  .paintPro .service-tile-photo {
+    height: 180px;
+  }
+  .paintPro .stagger-painter,
+  .paintPro .stagger-main,
+  .paintPro .stagger-exterior {
+    height: 240px;
+  }
+  .paintPro .stagger-mini-stack {
+    grid-template-columns: 1fr;
+  }
+  .paintPro .stagger-mini {
+    height: 140px;
+  }
+  .paintPro .footer-image {
+    height: 300px;
+  }
+  .paintPro .footer-image strong {
+    font-size: clamp(48px, 20vw, 88px);
+  }
+  .paintPro .footer-statement h2 {
+    font-size: clamp(22px, 6.5vw, 30px);
+  }
+}

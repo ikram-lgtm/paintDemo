@@ -1,0 +1,193 @@
+@media (max-width: 740px) {
+  .paintPro {
+    --side: 16px;
+  }
+  .paintPro .spacious {
+    padding-top: 74px;
+    padding-bottom: 68px;
+  }
+  .paintPro .site-container {
+    width: min(calc(100% - 2 * var(--side)), var(--max));
+  }
+  .paintPro .s1 {
+    padding: 12px var(--side) 0;
+  }
+  .paintPro .topbar {
+    max-width: 100%;
+    height: 64px;
+    padding: 0;
+    gap: 12px;
+  }
+  .paintPro .wordmark {
+    font-size: clamp(24px, 7vw, 34px);
+  }
+  .paintPro .nav-links {
+    gap: 10px;
+    font-size: 12px;
+  }
+  .paintPro .nav-links a:nth-child(2),
+  .paintPro .nav-links a:nth-child(3) {
+    display: none;
+  }
+  .paintPro .nav-locale {
+    display: none;
+  }
+  .paintPro .hero-stage {
+    max-width: 100%;
+    min-height: 620px;
+    border-radius: 18px;
+  }
+  .paintPro .hero-center {
+    top: 44%;
+    width: 92%;
+  }
+  .paintPro .hero-center h1 {
+    font-size: clamp(40px, 11vw, 72px);
+    margin-bottom: 22px;
+  }
+  .paintPro .hero-inset {
+    display: none;
+  }
+  .paintPro .s2 {
+    padding-top: 88px;
+    padding-bottom: 72px;
+  }
+  .paintPro .category-cards {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 12px;
+  }
+  .paintPro .category-card,
+  .paintPro .category-card:nth-child(odd) {
+    margin: 0;
+    height: 300px;
+  }
+  .paintPro .category-card:nth-child(even) {
+    margin-top: 28px;
+  }
+  .paintPro .category-card:nth-child(odd) {
+    height: 270px;
+  }
+  .paintPro .category-bottom {
+    left: 12px;
+    right: 12px;
+    bottom: 14px;
+    font-size: 16px;
+  }
+  .paintPro .category-editorial {
+    grid-template-columns: 1fr;
+    gap: 18px;
+    margin-top: 56px;
+  }
+  .paintPro .category-editorial h2 {
+    font-size: clamp(34px, 9vw, 50px);
+  }
+  .paintPro .category-editorial p {
+    max-width: none;
+  }
+  .paintPro .eyebrow-line {
+    letter-spacing: 0.12em;
+  }
+  .paintPro .eyebrow-line i {
+    width: 56px;
+  }
+  .paintPro .s3 {
+    padding-top: 64px;
+  }
+  .paintPro .s3-benefits {
+    font-size: 12px;
+    margin: 28px auto 28px;
+    gap: 8px 0;
+  }
+  .paintPro .s3-benefits span {
+    padding: 4px 10px;
+  }
+  .paintPro .comparison-layout {
+    grid-template-columns: 1fr;
+    gap: 14px;
+  }
+  .paintPro .compare-main {
+    grid-column: auto;
+    grid-row: auto;
+    min-height: 360px;
+    order: -1;
+  }
+  .paintPro .mini-column {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+  }
+  .paintPro .compare-mini {
+    margin: 0;
+  }
+  .paintPro .compare-mini-photo {
+    height: 110px;
+  }
+  .paintPro .compare-mini-title {
+    font-size: 12px;
+    gap: 8px;
+  }
+  .paintPro .compare-divider span {
+    width: 48px;
+    height: 48px;
+    font-size: 20px;
+  }
+  .paintPro .s4 {
+    padding-top: 64px;
+  }
+  .paintPro .s4-cinema {
+    height: 480px;
+  }
+  .paintPro .cinema-copy {
+    left: var(--side);
+    right: var(--side);
+    bottom: 24px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+  }
+  .paintPro .cinema-copy h2 {
+    font-size: clamp(32px, 8vw, 47px);
+  }
+  .paintPro .cinema-copy p {
+    font-size: 14px;
+    max-width: none;
+  }
+  .paintPro .cinema-play {
+    width: 72px;
+    height: 72px;
+  }
+  .paintPro .s4-header {
+    padding-top: 56px;
+  }
+  .paintPro .s4-header h2 {
+    font-size: clamp(30px, 8vw, 48px);
+  }
+  .paintPro .project-carousel {
+    grid-template-columns: 1fr;
+    gap: 18px;
+    overflow: visible;
+  }
+  .paintPro .project-small {
+    padding-top: 0;
+  }
+  .paintPro .project-photo {
+    height: 220px;
+  }
+  .paintPro .project-featured .project-photo {
+    height: 280px;
+  }
+  .paintPro .project-card p {
+    display: block;
+  }
+  .paintPro .project-card h3 {
+    font-size: clamp(16px, 4vw, 20px);
+  }
+  .paintPro .project-detail-button {
+    height: 88px;
+    width: 88px;
+    font-size: 13px;
+  }
+  .paintPro .carousel-footer {
+    justify-content: center;
+  }
+}

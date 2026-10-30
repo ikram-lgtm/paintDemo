@@ -1,0 +1,91 @@
+@media (max-width: 1260px) {
+  .paintPro .s7-head > .pill {
+    position: static;
+    margin: -15px auto 25px;
+  }
+  .paintPro .s7-gallery {
+    grid-template-columns: 0.9fr 1fr 1.3fr 1.3fr 0.7fr;
+    gap: 11px;
+  }
+  .paintPro .gallery-card h3 {
+    max-width: 55%;
+  }
+  .paintPro .tilted-photo {
+    width: 110px;
+  }
+  .paintPro .expert-main h2 {
+    font-size: clamp(44px, 5vw, 70px);
+  }
+}
+
+@media (max-width: 1000px) {
+  .paintPro .comparison-layout {
+    grid-template-columns: 1fr 1.5fr 1fr;
+    gap: 12px;
+  }
+  .paintPro .compare-main {
+    min-height: 450px;
+  }
+  .paintPro .mini-column {
+    gap: 14px;
+  }
+  .paintPro .compare-mini {
+    padding: 9px;
+  }
+  .paintPro .compare-mini-photo {
+    height: 110px;
+  }
+  .paintPro .compare-mini-title {
+    font-size: 12px;
+  }
+  .paintPro .transform-top {
+    grid-template-columns: 1fr;
+  }
+  .paintPro .transform-splash {
+    min-height: 365px;
+    border-radius: 28px;
+  }
+  .paintPro .service-tile-photo {
+    height: 230px;
+  }
+  .paintPro .category-card {
+    height: 450px;
+  }
+  .paintPro .category-card:nth-child(odd) {
+    height: 360px;
+    margin-top: 90px;
+  }
+  .paintPro .s7-gallery {
+    grid-template-columns: 1fr 1fr 1.4fr 1.3fr;
+  }
+  .paintPro .stagger-plaster {
+    display: none;
+  }
+  .paintPro .faq-grid {
+    gap: 50px;
+  }
+  .paintPro .cinema-copy h2 {
+    font-size: 51px;
+  }
+  .paintPro .s3-benefits {
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 12px;
+  }
+  .paintPro .s3-benefits span {
+    border-right: 0;
+    padding: 0 14px;
+  }
+  .paintPro .expert-facts {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .paintPro .expert-fact:nth-child(2n) {
+    border-right: 0;
+  }
+  .paintPro .hand-note,
+  .paintPro .s7-icon,
+  .paintPro .s7-arc {
+    display: none;
+  }
+}
+

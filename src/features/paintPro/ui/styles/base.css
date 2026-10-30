@@ -5,7 +5,8 @@
 }
 .paintPro, .paintPro *{box-sizing:border-box}
 .paintPro{scroll-behavior:smooth;scroll-padding-top:24px}
-.paintPro{margin:0;background:var(--paper);color:var(--ink);font-family:var(--font-nourd),system-ui,sans-serif;-webkit-font-smoothing:antialiased}
+.paintPro{margin:0;background:var(--paper);color:var(--ink);font-family:var(--font-nourd),system-ui,sans-serif;-webkit-font-smoothing:antialiased;overflow-x:clip;width:100%;max-width:100%}
+.paintPro main{overflow-x:clip;width:100%;max-width:100%}
 .paintPro button, .paintPro input{font:inherit}
 .paintPro button{cursor:pointer}
 .paintPro a{color:inherit;text-decoration:none}

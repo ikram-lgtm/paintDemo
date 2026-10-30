@@ -1,0 +1,230 @@
+@media (max-width: 740px) {
+  .paintPro .expert-grid {
+    grid-template-columns: 1fr;
+  }
+  .paintPro .expert-main {
+    padding-bottom: 72px;
+  }
+  .paintPro .expert-photo {
+    height: 360px;
+  }
+  .paintPro .expert-label {
+    top: auto;
+    bottom: 78px;
+    left: 16px;
+  }
+  .paintPro .expert-main h2 {
+    font-size: clamp(40px, 11vw, 58px);
+    left: 12px;
+    right: 12px;
+  }
+  .paintPro .expert-side {
+    grid-template-columns: 1fr;
+    grid-template-rows: none;
+    gap: 14px;
+  }
+  .paintPro .gallery-card,
+  .paintPro .exterior-card {
+    min-height: 220px;
+    padding: 20px;
+  }
+  .paintPro .gallery-card h3,
+  .paintPro .exterior-card h3 {
+    font-size: clamp(22px, 6vw, 28px);
+    max-width: none;
+  }
+  .paintPro .tilted-photo {
+    width: 88px;
+    height: 102px;
+  }
+  .paintPro .expert-facts {
+    grid-template-columns: 1fr 1fr;
+    gap: 0;
+  }
+  .paintPro .expert-fact {
+    padding: 16px 8px;
+  }
+  .paintPro .fact-number {
+    font-size: clamp(32px, 9vw, 44px);
+  }
+  .paintPro .expert-fact > div {
+    gap: 8px;
+    flex-direction: column;
+    text-align: center;
+    font-size: 12px;
+  }
+  .paintPro .s6 {
+    max-width: 100%;
+  }
+  .paintPro .splash-content {
+    padding: 24px 20px;
+    max-width: none;
+  }
+  .paintPro .splash-content h2 {
+    font-size: clamp(34px, 9vw, 52px);
+  }
+  .paintPro .splash-content p {
+    max-width: none;
+  }
+  .paintPro .service-cards {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+  .paintPro .service-tile {
+    padding: 10px;
+    border-radius: 20px;
+  }
+  .paintPro .service-tile-photo {
+    height: 200px;
+  }
+  .paintPro .service-tile h3 {
+    font-size: 16px;
+  }
+  .paintPro .circle-link {
+    flex-basis: 40px;
+    width: 40px;
+    height: 40px;
+  }
+  .paintPro .benefits-bar {
+    grid-template-columns: 1fr;
+    gap: 0;
+    padding: 8px 16px;
+  }
+  .paintPro .benefit {
+    justify-content: flex-start;
+    border-right: 0;
+    border-bottom: 1px solid #d6dfd2;
+    padding: 14px 4px;
+  }
+  .paintPro .benefit:last-child {
+    border-bottom: 0;
+  }
+  .paintPro .s7 {
+    padding-top: 88px;
+  }
+  .paintPro .s7-head {
+    max-width: 100%;
+    padding-inline: var(--side);
+  }
+  .paintPro .s7-head h2 {
+    font-size: clamp(32px, 8.5vw, 44px);
+    margin: 20px 0 28px;
+  }
+  .paintPro .s7-gallery {
+    grid-template-columns: 1fr;
+    gap: 12px;
+    min-height: 0;
+    padding-inline: var(--side);
+  }
+  .paintPro .stagger-painter,
+  .paintPro .stagger-main,
+  .paintPro .stagger-exterior,
+  .paintPro .stagger-mini-stack {
+    grid-column: auto;
+    grid-row: auto;
+    height: auto;
+    margin: 0;
+  }
+  .paintPro .stagger-painter,
+  .paintPro .stagger-main,
+  .paintPro .stagger-exterior {
+    height: 280px;
+  }
+  .paintPro .stagger-mini-stack {
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+  }
+  .paintPro .stagger-mini {
+    height: 160px;
+  }
+  .paintPro .stagger-mini-photo {
+    display: block;
+  }
+  .paintPro .stagger-label {
+    padding: 10px 12px;
+    font-size: 14px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+  }
+  .paintPro .marquee {
+    height: 68px;
+  }
+  .paintPro .marquee-group > span {
+    font-size: 13px;
+    padding: 0 22px;
+  }
+  .paintPro .faq-grid {
+    grid-template-columns: 1fr;
+    gap: 28px;
+    padding-top: 72px;
+    padding-bottom: 72px;
+  }
+  .paintPro .faq-intro h2 {
+    font-size: clamp(34px, 9vw, 48px);
+  }
+  .paintPro .faq-intro p {
+    max-width: none;
+  }
+  .paintPro .faq-item > button {
+    font-size: 15px;
+    padding: 18px 0;
+    gap: 10px;
+  }
+  .paintPro .footer-statement {
+    padding-block: 28px;
+  }
+  .paintPro .footer-statement h2 {
+    font-size: clamp(24px, 7.2vw, 40px);
+    white-space: normal;
+  }
+  .paintPro .footer-nav {
+    min-height: 0;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 18px;
+    padding: 28px var(--side);
+  }
+  .paintPro .footer-nav nav {
+    gap: 12px 18px;
+    max-width: 100%;
+  }
+  .paintPro .footer-nav small {
+    order: 3;
+  }
+  .paintPro .back-top {
+    order: 2;
+  }
+  .paintPro .footer-image {
+    height: 360px;
+  }
+  .paintPro .footer-image strong {
+    font-size: clamp(56px, 22vw, 120px);
+  }
+  .paintPro .centered-header h2 {
+    font-size: clamp(30px, 8vw, 48px);
+  }
+  .paintPro .centered-header p {
+    font-size: 15px;
+    max-width: none;
+  }
+  .paintPro .pill {
+    padding: 13px 22px;
+    font-size: 14px;
+  }
+  .paintPro .dialog-backdrop {
+    padding: 16px;
+  }
+  .paintPro .detail-image {
+    height: 220px;
+  }
+  .paintPro .detail-body {
+    padding: 20px;
+  }
+  .paintPro .detail-body h3 {
+    font-size: 24px;
+  }
+}
+
